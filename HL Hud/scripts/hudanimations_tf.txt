@@ -645,18 +645,18 @@ event ActiveTimerDim
 
 event OvertimeLabelPulseRed
 {
-	Animate	OvertimeLabel 	FgColor		TanLight	Linear 0.0 0.3
-	Animate	OvertimeLabel 	FgColor		RedSolid	Linear 0.3 0.3
+	Animate	OvertimeLabel 	BgColor		HL2BG	Linear 0.0 0.3
+	Animate	OvertimeLabel 	BgColor		HL2Yellow	Linear 0.3 0.3
 
 	RunEvent OvertimeLabelPulseRed 0.6
 }
 
 event SuddenDeathLabelPulseRed
 {
-	Animate	SuddenDeathLabel 	FgColor		TanLight	Linear 0.0 0.3
-	Animate	SuddenDeathLabel 	FgColor		RedSolid			Linear 0.3 0.3
+	Animate	SuddenDeathLabel 	BgColor		HL2BG	Linear 0.0 0.3
+	Animate	SuddenDeathLabel 	BgColor		HL2Yellow			Linear 0.3 0.3
 
-	RunEvent SuddenDeathLabelPulseRed 0.2
+	RunEvent SuddenDeathLabelPulseRed 0.6
 }
 
 //===========================================

@@ -3039,14 +3039,14 @@ Scheme
 			"1"
 			{
 				"name"		"HL2"
-				"tall"		"32"	[$WIN32]
-				"tall"		"38"	[$X360]
+				"tall"		"32"
 				"weight"	"0"
 				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
 			}
 		}
+		
 		HudNumbersSmall
 		{
 			"1"
