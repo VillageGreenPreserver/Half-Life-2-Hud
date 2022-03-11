@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"background"
-		"xpos"			"0"
+		"xpos"			"100"
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"0"
