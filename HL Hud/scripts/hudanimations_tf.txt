@@ -622,23 +622,23 @@ event ActiveTimerBGPulse
 
 event ActiveTimerHighlight
 {
-	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
-	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
+	Animate TimePanelValue bgColor	HL2Yellow		Linear 0.1 0.1
+	Animate TimePanelValue bgColor	HL2BG		Linear 0.3 0.1
 
-	Animate TimePanelValue FgColor	TanLight		Linear 0.5 0.1
-	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.7 0.1
+	Animate TimePanelValue bgColor	HL2Yellow		Linear 0.5 0.1
+	Animate TimePanelValue bgColor	HL2BG		Linear 0.7 0.1
 
-	Animate TimePanelValue FgColor	TanLight		Linear 0.9 0.1
-	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
+	Animate TimePanelValue bgColor	HL2Yellow		Linear 0.9 0.1
+	Animate TimePanelValue bgColor	HL2BG		Linear 1.1 0.1
 
-	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
+	Animate TimePanelValue FgColor	HL2Yellow		Linear 0.1 0.1
 	
 }
 
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.0 0.4
+	Animate TimePanelValue FgColor	BGBright		Linear 0.0 0.4
 }
 
 //===========================================
