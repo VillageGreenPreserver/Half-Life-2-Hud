@@ -638,7 +638,7 @@ event ActiveTimerHighlight
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	BGBright		Linear 0.0 0.4
+	Animate TimePanelValue FgColor	HL2Yellow		Linear 0.0 0.4
 }
 
 //===========================================
@@ -1689,9 +1689,9 @@ event TeamStatus_PlayerDead
 	SetVisible SkullPanel  1 0
 	SetVisible respawntime  1 0
 
-	Animate DeathPanel ypos 19 Accel 0 0.2
-	Animate SkullPanel ypos 20 Accel 0 0.2
-	Animate respawntime ypos 21 Accel 0 0.2
+	Animate DeathPanel ypos 24 Accel 0 0.2
+	Animate SkullPanel ypos 25 Accel 0 0.2
+	Animate respawntime ypos 27 Accel 0 0.2
 }
 
 event TeamStatus_PlayerAlive

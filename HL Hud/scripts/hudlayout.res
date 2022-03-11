@@ -41,7 +41,7 @@
 		"enabled" "1"
 		"xpos"	"cs-0.5"
 		"ypos"	"0"
-		"wide"	"212"
+		"wide"	"216"
 		"tall"	"160"
 		
 		"blue_active_xpos"			"0"
@@ -481,10 +481,8 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"xpos"	 "r672"	[$X360]
-		"ypos"	 "35"	[$X360]
+		"xpos"	 "r640"
+		"ypos"	 "48"
 		"wide"	 "628"
 		"tall"	 "468"
 

@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"HudNumbers2"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -76,7 +76,9 @@
 		"labelText"		"%countdown%"
 		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"HL2Yellow"
+		"bgcolor_override"	"HL2BG"
+		"paintbackgroundtype"	"2"
 
 		if_readymode
 		{
@@ -92,7 +94,7 @@
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
 		"ypos"			"cs-0.08"
-		"wide"			"40"
+		"wide"			"0"
 		"tall"			"40"
 		"zpos"			"4"
 		"autoResize"	"0"
@@ -211,19 +213,45 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
+		"xpos"				"cs-1-62"
+		"ypos"				"16"
 		"zpos"				"0"
-		"wide"				"365"
+		"wide"				"130"
 		"tall"				"28"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
-		"border"			"TFFatLineBorder"
+		"paintborder"			"0"
+		
+		"bgcolor_override"		"HL2BG"
+		"paintbackgroundtype"	"2"
 
 		if_match
 		{
-			"visible"		"0"
+			"visible"		"1"
+		}
+	}
+	
+	"BGFrame2"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"BGFrame2"
+		"xpos"				"c62"
+		"ypos"				"16"
+		"zpos"				"0"
+		"wide"				"130"
+		"tall"				"28"
+		"visible"			"0"
+
+		"proportionaltoaparent"	"1"
+		"paintborder"			"0"
+		
+		"bgcolor_override"		"HL2BG"
+		"paintbackgroundtype"	"2"
+
+		if_match
+		{
+			"visible"		"1"
 		}
 	}
 
@@ -341,7 +369,7 @@
 		"ControlName"	"CTFTeamStatus"
 		"fieldName"		"TeamStatus"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"18"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"75"
@@ -349,18 +377,18 @@
 		"enabled"		"1"
 
 
-		"max_size"	"19"
+		"max_size"	"16"
 
 		"6v6_gap"	"4"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
-		"team1_max_expand"	"133"
+		"team1_base_x"	"c-64"
+		"team1_max_expand"	"126"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
-		"team2_max_expand"	"133"
+		"team2_base_x"	"c64"
+		"team2_max_expand"	"126"
 
 		"playerpanels_kv"
 		{
@@ -369,14 +397,14 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
-			"color_portrait_bg_red_dead"	"79 54 52 255"
-			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
+			"color_portrait_bg_red"	"119 62 61 0"
+			"color_portrait_bg_blue"	"62 81 101 0"
+			"color_portrait_bg_red_dead"	"79 54 52 0"
+			"color_portrait_bg_blue_dead"	"44 49 51 0"
+			"color_bar_health_high"	"HL2Yellow"
+			"color_bar_health_med"	"HL2Yellow"
 			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
+			"color_bar_health_low"	"HL2DamagedFg"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
@@ -402,8 +430,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"3"
-				"wide"			"19"
-				"tall"			"19"
+				"wide"			"24"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -418,7 +446,7 @@
 				"ypos"			"0"
 				"zpos"			"2"
 				"wide"			"f0"
-				"tall"			"19"
+				"tall"			"24"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType"	"0"
@@ -430,7 +458,7 @@
 				"fieldName"				"healthbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"23"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"2"				
@@ -450,7 +478,7 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"																		
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"23"
 				"zpos"					"6"
 				"wide"					"f0"
 				"tall"					"2"				
@@ -462,7 +490,7 @@
 				"dulltext"				"0"
 				"brighttext"			"0"
 				"bgcolor_override"	   "0 0 0 0"
-				"fgcolor_override"	   "255 255 255 160"
+				"fgcolor_override"	   "HL2YellowBright"
 				"proportionaltoparent"	"1"
 			}
 			"HealthIcon"
@@ -604,11 +632,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-155"
+		"xpos"			"-55" //-155
 		"ypos"			"125"
 		"zpos"			"50"
 		"wide"			"150"
-		"tall"			"260"
+		"tall"			"206" //260
 		"visible"		"0"
 		"enabled"		"1"
 
@@ -629,7 +657,7 @@
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
@@ -640,9 +668,9 @@
 			"xpos"			"9"
 			"ypos"			"0"
 			"zpos"			"5"
-			"wide"			"56"
+			"wide"			"0"
 			"tall"			"56"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
@@ -698,22 +726,24 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"BluePlayerList"
 			"xpos"			"6"
-			"ypos"			"38"
+			"ypos"			"10"
 			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
+			"wide"			"f12"
+			"tall"			"f18" //f18
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
+			"paintbackground"	"0"
 			"linegap"		"4"
 			//"show_columns"	"1"
+			"proportionaltoparent"	"1"
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"			"f18"
 			}
 		}
 		"BluePlayerListBG"
@@ -727,14 +757,64 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"border"		"TFFatLineBorderClearBG"
+			"border"		"HL2Panel"
 
 			if_large
 			{
 				"tall"			"325"
 			}
+		}
+		"BG"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"BG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/message_dialog"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"
+			"draw_corner_height" 	"11"
+		}
+		
+		"TitleLabel"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"Default"
+			"xpos"			"12"			// align me to the left edge of the first selection
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"300"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"BLU"
+			"fgcolor"	"HL2Blue"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		"Divider"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Divider"
+			"xpos"			"cs-0.5"
+			"ypos"			"18"
+			"zpos"			"1"
+			"wide"			"f13"
+			"tall"			"1"
+			"proportionaltoparent"	"1"
+			"fillcolor"		"0 0 0 200"
 		}
 	}
 
@@ -742,11 +822,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"RedTeamPanel"
-		"xpos"			"r-5"
-		"ypos"			"125"
+		"xpos"			"r-5" //r-5
+		"ypos"			"125" //125
 		"zpos"			"50"
 		"wide"			"150"
-		"tall"			"260"
+		"tall"			"206" //260
 		"visible"		"0"
 		"enabled"		"1"
 
@@ -763,11 +843,11 @@
 			"xpos"			"0"
 			"ypos"			"10"
 			"zpos"			"2"
-			"wide"			"147"
+			"wide"			"0"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
@@ -778,9 +858,9 @@
 			"xpos"			"84"
 			"ypos"			"-9"
 			"zpos"			"5"
-			"wide"			"70"
+			"wide"			"0"
 			"tall"			"70"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
@@ -792,10 +872,10 @@
 			"font"			"CompMatchStartTeamNames"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
-			"xpos"			"5"
-			"ypos"			"13"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"20"
-			"wide"			"95"
+			"wide"			"30"
 			"tall"			"30"
 			"autoResize"		"0"
 			"pinCorner"		"0"
@@ -836,22 +916,24 @@
 			"ControlName"	"SectionedListPanel"
 			"fieldName"		"RedPlayerList"
 			"xpos"			"6"
-			"ypos"			"38"
+			"ypos"			"10"
 			"zpos"			"1"
-			"wide"			"136"
-			"tall"			"205"
+			"wide"			"f12"
+			"tall"			"f18"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"autoresize"	"3"
 			"linespacing"	"26"
+			"paintbackground"	"0"
+			"proportionaltoparent"	"1"
 			"linegap"		"4"
 			//"show_columns"	"1"
 
 			if_large
 			{
-				"tall"			"315"
+				"tall"			"f18"
 			}
 		}
 		"RedPlayerListBG"
@@ -865,7 +947,7 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
 
@@ -873,6 +955,57 @@
 			{
 				"tall"			"325"
 			}
+		}
+		"BG"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"BG"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"0"
+			"wide"			"f0"
+			"tall"			"f0"
+			"scaleImage"	"1"	
+			"proportionaltoparent"	"1"
+			"image"			"replay/thumbnails/message_dialog"
+			"src_corner_height"		"24"
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"
+			"draw_corner_height" 	"11"
+		}
+		
+		"TitleLabel"
+		{	
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"Default"
+			"xpos"			"12"			// align me to the left edge of the first selection
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"300"
+			"tall"			"24"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"RED"
+			"fgcolor"	"HL2Red"
+			"textAlignment"	"Left"
+			"dulltext"		"0"
+			"brighttext"	"0"
+		}
+		
+		"Divider"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Divider"
+			"xpos"			"cs-0.5"
+			"ypos"			"18"
+			"zpos"			"1"
+			"wide"			"f13"
+			"tall"			"1"
+			"proportionaltoparent"	"1"
+			"fillcolor"		"0 0 0 200"
 		}
 	}
 }
