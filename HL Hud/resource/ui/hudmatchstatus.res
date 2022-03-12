@@ -632,11 +632,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"BlueTeamPanel"
-		"xpos"			"-55" //-155
-		"ypos"			"125"
+		"xpos"			"-155" //-155
+		"ypos"			"125" //125
 		"zpos"			"50"
 		"wide"			"150"
-		"tall"			"206" //260
+		"tall"			"206" //206
 		"visible"		"0"
 		"enabled"		"1"
 

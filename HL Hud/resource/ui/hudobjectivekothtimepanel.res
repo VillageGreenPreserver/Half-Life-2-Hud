@@ -12,7 +12,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"2"
+		"xpos"				"7"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -30,7 +30,8 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"c-55"
+			"wide"				"105"
 			"ypos"					"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
@@ -67,7 +68,7 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"0"
+				"xpos"			"5"
 				"ypos"			"16"
 				"tall"			"18"
 				"wide"			"44"
@@ -81,7 +82,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"rs1-2"
+		"xpos"				"rs1-7"
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"100"
@@ -100,8 +101,9 @@
 		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"c-50"
 			"ypos"					"0"
+			"wide"				"105"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -165,5 +167,6 @@
 		"src_corner_width"		"30"
 		"draw_corner_width"		"3"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"3"	
+		"alpha"	"0"
 	}
 }

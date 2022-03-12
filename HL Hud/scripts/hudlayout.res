@@ -41,13 +41,13 @@
 		"enabled" "1"
 		"xpos"	"cs-0.5"
 		"ypos"	"0"
-		"wide"	"216"
+		"wide"	"226"
 		"tall"	"160"
 		
-		"blue_active_xpos"			"0"
+		"blue_active_xpos"			"5"
 		"blue_active_xpos_minmode"	"55"
 	
-		"red_active_xpos"			"112"
+		"red_active_xpos"			"117"
 		"red_active_xpos_minmode"	"105"
 	}	
 

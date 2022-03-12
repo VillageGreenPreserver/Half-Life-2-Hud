@@ -631,14 +631,14 @@ event ActiveTimerHighlight
 	Animate TimePanelValue bgColor	HL2Yellow		Linear 0.9 0.1
 	Animate TimePanelValue bgColor	HL2BG		Linear 1.1 0.1
 
-	Animate TimePanelValue FgColor	HL2Yellow		Linear 0.1 0.1
+	//Animate TimePanelValue FgColor	HL2Yellow		Linear 0.1 0.1
 	
 }
 
 event ActiveTimerDim
 {
 	// Slow fade out
-	Animate TimePanelValue FgColor	HL2Yellow		Linear 0.0 0.4
+	//Animate TimePanelValue FgColor	HL2Yellow		Linear 0.0 0.4
 }
 
 //===========================================
@@ -1560,7 +1560,7 @@ event HudTournament_AnimateTeams_Out
 
 event HudMatchStatus_ShowMatchStartDoors
 {
-	SetVisible	MatchDoors	1	0
+	SetVisible	MatchDoors	0	0
 	SetVisible	BlueTeamPanel	1	0
 	SetVisible	RedTeamPanel	1	0
 	SetVisible CountdownLabel 1 0
