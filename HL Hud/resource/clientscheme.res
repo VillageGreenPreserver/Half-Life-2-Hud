@@ -3147,6 +3147,51 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		
+		Trebuchet20
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Trebuchet22
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"22"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Trebuchet24
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		Trebuchet26
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"26"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 	}
 
 	//
