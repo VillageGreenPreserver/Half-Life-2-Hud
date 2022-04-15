@@ -327,7 +327,7 @@ Scheme
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
-		Label.DisabledFgColor2			"Black"
+		Label.DisabledFgColor2			"HL2Yellow"
 
 		ListPanel.TextColor					"Orange"
 		ListPanel.BgColor					"TransparentBlack"
@@ -2140,6 +2140,7 @@ Scheme
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
+				"antialias"	"1"
 			}
 		}
 		RankingDialogHeaders
@@ -5963,18 +5964,59 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-			
-			HL2Panel
+		}
+		
+		HL2ButtonBorder
+		{
+			"inset" "0 0 1 1"
+			Left
 			{
-				"bordertype"			"scalable_image"
-				"backgroundtype"		"2"
-				
-				"image"					"replay/thumbnails/message_dialog"
-				"src_corner_height"		"24"				// pixels inside the image
-				"src_corner_width"		"24"
-				"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"11"	
+				"1"
+				{
+					"color" "PanelText"
+					"offset" "0 1"
+				}
+
 			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "PanelText"
+					"offset" "1 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "PanelText"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "PanelText"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		HL2Panel
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/message_dialog"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
 		}
 	}
 

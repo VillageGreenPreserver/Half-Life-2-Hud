@@ -56,7 +56,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"HL2YellowSolid"
+		"iconColor"		"255 220 0 255"
 	}
 	
 	"NotBuiltPanel"
@@ -113,7 +113,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"HL2YellowSolid"
+			"iconColor"		"255 220 0 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -129,7 +129,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"HL2YellowSolid"
+			"iconColor"		"255 220 0 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -145,7 +145,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"HL2YellowSolid"
+			"iconColor"		"255 220 0 255"
 		}
 
 
@@ -290,8 +290,8 @@
 				"tall"			"10"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"../hud/hud_obj_status_teleport_64"
-				"drawcolor"		"190 166 60 100"
+				"image"			"replay/thumbnails/engineer/hud_obj_status_teleport_64"
+				"drawcolor"		"255 220 0 255"
 				"scaleImage"	"1"
 			}
 			
@@ -370,7 +370,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"ico_metal"
-				"iconColor"		"190 166 60 100"
+				"iconColor"		"255 220 0 255"
 			}
 			
 			"Upgrade"
