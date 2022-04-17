@@ -80,12 +80,13 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%targetname%"
 		"textAlignment"		"West"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"proportionaltoparent"	"1"
+		"DisabledFgColor2_override"		"PanelText"
 	}
 	
 	"TargetDataLabel"
@@ -101,12 +102,13 @@
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
+		"enabled"		"0"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"Left"
 		"dulltext"		"0"
 		"proportionaltoparent"	"1"
 		"brighttext"		"0"
+		"DisabledFgColor2_override"		"PanelText"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -122,7 +124,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"HudOffWhite"
+		"TextColor"		"PanelText"
 		"proportionaltoparent"	"1"
 	}	
 	

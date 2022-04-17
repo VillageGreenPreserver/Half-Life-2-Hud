@@ -3193,6 +3193,19 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		
+		"WinPanelLarge"
+		{
+			"1"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"14"
+				"weight"	"700"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1" [!$OSX]
+			}
+		}
 	}
 
 	//

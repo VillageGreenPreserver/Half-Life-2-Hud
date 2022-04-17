@@ -69,7 +69,7 @@
 		"labelText"		"%health%"
 		"textAlignment"	"center"	
 		"font"			"Trebuchet24"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"PanelText"
 		"proportionaltoparent"	"1"
 	}
 	"PlayerStatusPlayerLevel"
