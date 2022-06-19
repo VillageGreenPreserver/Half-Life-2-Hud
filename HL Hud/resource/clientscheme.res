@@ -96,8 +96,8 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
+		"TanDark"				"200 200 200 196" //117 107 94 255
+		"TanLight"				"255 255 255 255" //235 226 202 255
 		"TanDarker"				"46 43 42 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -275,7 +275,7 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
+		Button.BgColor					"117 107 94 255"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"
@@ -283,13 +283,13 @@ Scheme
 		Button.DepressedTextColor		"Black"
 		Button.DepressedBgColor			"TFOrange"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
-		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.TextColor			"BorderBright"
+		CheckButton.SelectedTextColor	"HudWhite"
+		CheckButton.BgColor				"BGDark"
+		CheckButton.Border1  			"BorderDark" 		// the left checkbutton border
+		CheckButton.Border2  			"BorderBright"		// the right checkbutton border
+		CheckButton.Check				"HudWhite"		// color of the check itself
+		CheckButton.HighlightFgColor	"HudWhite"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -321,9 +321,9 @@ Scheme
 		GraphPanel.FgColor				"Orange"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
+		Label.TextDullColor				"0 0 0 255"
+		Label.TextColor					"255 255 255 255"
+		Label.TextBrightColor			"0 255 0 255"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
@@ -393,7 +393,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
+		Slider.TextColor			"BGBright"
 		Slider.TrackColor			"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"
 		Slider.DisabledTextColor2	"30 30 30 255"
@@ -953,7 +953,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Verdana"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1012,11 +1012,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" 	"1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"0"
+				"yres"		"1 10000"
 			}
 		}
 		"HudFontSmallestShadow"
@@ -3144,8 +3144,56 @@ Scheme
 				"name"		"Verdana Bold"
 				"tall"		"6"
 				"weight"	"1400"
-				"additive"	"1"
+				"additive"	"0"
 				"antialias" 	"1"
+			}
+		}
+		
+		"Marlett6"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"6"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		
+		"Marlett8"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"8"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		
+		"Marlett10"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"10"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		
+		"Marlett12"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"12"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
 		
@@ -5899,6 +5947,47 @@ Scheme
 			"draw_corner_width"		"24"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"24"	
 		}
+		
+		SRCToolTip
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "0 0 0 200"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "0 0 0 200"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "0 0 0 200"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "0 0 0 200"
+					"offset" "0 0"
+				}
+			}
+		}
+		
 		SRCBorderConcave
 		{
 			"inset" "0 0 0 0"
@@ -5969,6 +6058,108 @@ Scheme
 				}
 			}
 
+			Bottom
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		SRCTabNotSelected
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		SRCTabSelected
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		SRCBorderConvexSWE
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+			
 			Bottom
 			{
 				"1"

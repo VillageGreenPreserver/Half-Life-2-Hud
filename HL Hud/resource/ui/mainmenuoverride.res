@@ -3502,4 +3502,10 @@
 			"image"			"../hud/defense_buff_explosion_blue"
 		}
 	}
+	
+	"DashboardDimmer"
+	{
+		"wide" "0"
+		"tall" "0"
+	}
 }
