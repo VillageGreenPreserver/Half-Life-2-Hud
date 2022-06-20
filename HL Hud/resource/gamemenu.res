@@ -7,16 +7,75 @@
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"CallVoteButton"
+	
+	//Menu Buttons
+	"FindGameButton"
 	{
-		"label"			"CALL VOTE"
-		"command"		"callvote"
+		"label"			"FIND SERVERS"
+		"command"		"OpenServerBrowser"
+		"OnlyAtMenu"	"1"
+	}
+	"CreateGameButton"
+	{
+		"label"			"CREATE SERVER"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"SettingsButton2"
+	{
+		"label"			"OPTIONS"
+		"command"		"OpenOptionsDialog"
+		"OnlyAtMenu"	"1"
+	}
+	"TFSettingsButton2"
+	{
+		"label"			"ADVANCED OPTIONS"
+		"command"		"opentf2options"
+		"OnlyAtMenu"	"1"
+	}
+	"ItemsButton2"
+	{
+		"label"			"CHARACTER SETUP"
+		"command"		"engine open_charinfo"
+		"OnlyAtMenu"	"1"
+	}
+	"ShopButton2"
+	{
+		"label"			"STORE"
+		"command"		"engine open_store"
+		"OnlyAtMenu"	"1"
+	}
+	"ContractButton2"
+	{
+		"label"			"CONTRACTS"
+		"command"		"questlog"
+		"OnlyAtMenu"	"1"
+	}
+	"MotdButton2"
+	{
+		"label"			"MORE"
+		"command"		"motd_show"
+		"OnlyAtMenu"	"1"
+	}
+	"QuitButton2"
+	{
+		"label"			"QUIT"
+		"command"		"quit"
+		"OnlyAtMenu"	"1"
+	}
+	
+	//In-Game Buttons
+	"ResumeGameButton"
+	{
+		"label"			"RESUME GAME"
+		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" ""
+	}
+	"DisconnectButton"
+	{
+		"label"			"DISCONNECT"
+		"command"		"disconnect"
+		"OnlyInGame"	"1"
 	}
 	"MutePlayersButton"
 	{
@@ -41,5 +100,68 @@
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
 		"tooltip"		""
+	}
+	
+	"FindGameButton_IG"
+	{
+		"label"			"FIND SERVERS"
+		"command"		"OpenServerBrowser"
+		"OnlyInGame"	"1"
+	}
+	"CreateGameButton_IG"
+	{
+		"label"			"CREATE SERVER"
+		"command"		"OpenCreateMultiplayerGameDialog"
+		"OnlyInGame"	"1"
+	}
+	"SettingsButton2_IG"
+	{
+		"label"			"OPTIONS"
+		"command"		"OpenOptionsDialog"
+		"OnlyInGame"	"1"
+	}
+	"TFSettingsButton2_IG"
+	{
+		"label"			"ADVANCED OPTIONS"
+		"command"		"opentf2options"
+		"OnlyInGame"	"1"
+	}
+	"ItemsButton2_IG"
+	{
+		"label"			"CHARACTER SETUP"
+		"command"		"engine open_charinfo"
+		"OnlyInGame"	"1"
+	}
+	"ShopButton2_IG"
+	{
+		"label"			"STORE"
+		"command"		"engine open_store"
+		"OnlyInGame"	"1"
+	}
+	"ContractButton2_IG"
+	{
+		"label"			"CONTRACTS"
+		"command"		"questlog"
+		"OnlyInGame"	"1"
+	}
+	"MotdButton2_IG"
+	{
+		"label"			"MORE"
+		"command"		"motd_show"
+		"OnlyInGame"	"1"
+	}
+	"QuitButton2_IG"
+	{
+		"label"			"QUIT"
+		"command"		"quit"
+		"OnlyInGame"	"1"
+	}
+	"CallVoteButton"
+	{
+		"label"			"CALL VOTE"
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" ""
 	}
 }

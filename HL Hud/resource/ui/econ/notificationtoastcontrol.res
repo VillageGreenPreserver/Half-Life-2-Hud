@@ -17,7 +17,7 @@
 			"border"		"NotificationHighPriority"
 		}
 		"paintborder"			"1"
-		"paintbackground"		"0"
+		"paintbackground"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"BGDark"
 	}
@@ -48,9 +48,10 @@
 
 		"border_default"	"SRCBorderConvex"
 		"border_armed"		"SRCBorderConvex"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"BGBright"
+		"armedBgColor_override"	"BGBright"
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
@@ -103,9 +104,10 @@
 
 		"border_default"	"SRCBorderConvex"
 		"border_armed"		"SRCBorderConvex"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"0 90 85 255"
+		"defaultBgColor_override"	"BGBright"
+		"armedBgColor_override"	"BGBright"
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override"		"235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
@@ -158,9 +160,10 @@
 
 		"border_default"	"SRCBorderConvex"
 		"border_armed"		"SRCBorderConvex"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"100 90 85 255"
+		"defaultBgColor_override"	"BGBright"
+		"armedBgColor_override"	"BGBright"
 		"defaultFgColor_override"	"255 255 255 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
@@ -209,9 +212,10 @@
 
 		"border_default"	"SRCBorderConvex"
 		"border_armed"		"SRCBorderConvex"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
-		"defaultBgColor_override"	"100 90 85 255"
+		"defaultBgColor_override"	"BGBright"
+		"armedBgColor_override"	"BGBright"
 		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
 		"depressedFgColor_override" "46 43 42 255"
