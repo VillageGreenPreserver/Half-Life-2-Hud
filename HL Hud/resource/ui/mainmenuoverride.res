@@ -298,10 +298,10 @@
 		"ypos"			"96-s1.5"
 		"zpos"			"4"
 		"wide"			"56"
-		"tall"			"11"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"textinsetx"	"6"
@@ -359,24 +359,7 @@
 		"alpha"			"75"
 	}
 	
-	"RankPanel"
-	{
-		"ControlName"	"CPvPRankPanel"	
-		"fieldName"		"RankPanel"
-		"xpos"			"50"
-		"ypos"			"36"
-		"zpos"			"2"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-		"mouseinputenabled"	"1"
-
-		"matchgroup"	"MatchGroup_Casual_12v12"
-
-		"show_model"	"0"
-		"show_type"		"1"
-	}
+	
 
 	"NoGCMessage"
 	{
@@ -417,24 +400,7 @@
 		"proportionaltoparent" "1"
 	}	
 
-	"RankBorder"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"RankBorder"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"260"
-		"tall"			"60"
-		"visible"		"1"
-		"PaintBackgroundType"	"2"
-		"PaintBackground"		"1"
-		"bgcolor_override"	"BGBright"
-		"proportionaltoparent"	"1"
-		"pin_to_sibling"	"RankPanel"
-		"pin_corner_to_sibling"	"1"
-		"pin_to_sibling_corner"	"1"
-	}
+	
 	
 	"TooltipPanel"
 	{
@@ -833,8 +799,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"c0"
 		"zpos"			"10"
-		"wide"			"230"
-		"tall"			"110"
+		"wide"			"196"
+		"tall"			"118"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
@@ -919,15 +885,15 @@
 			
 			"PaintBackground"	"0"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"0 0 0 128"
+			"bgcolor_override"	"BGDark"
 		}
 	
 		"AchievementButton"
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"AchievementButton"
-			"xpos"			"cs-1-14"
-			"ypos"			"28"
+			"xpos"			"-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -945,6 +911,9 @@
 			"default"		"1"
 			"Command"		"OpenAchievementsDialog"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"InnerShadow"	
+			"pin_to_sibling_corner"	"0"	
+			"pin_corner_to_sibling"	"0"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -958,8 +927,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"CommentaryButton"
-			"xpos"			"c14"
-			"ypos"			"28"
+			"xpos"			"-7"
+			"ypos"			"-7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -977,6 +946,9 @@
 			"default"		"1"
 			"Command"		"OpenLoadSingleplayerCommentaryDialog"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"InnerShadow"	
+			"pin_to_sibling_corner"	"1"	
+			"pin_corner_to_sibling"	"1"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -990,8 +962,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"WorkshopButton"
-			"xpos"			"cs-1-14"
-			"ypos"			"46"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1009,6 +981,9 @@
 			"default"		"1"
 			"Command"		"engine OpenSteamWorkshopDialog"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"AchievementButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1022,8 +997,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ConsoleButton"
-			"xpos"			"c14"
-			"ypos"			"46"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1041,6 +1016,9 @@
 			"default"		"1"
 			"Command"		"engine toggleconsole"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"CommentaryButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1054,8 +1032,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"DemoButton"
-			"xpos"			"cs-1-14"
-			"ypos"			"64"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1073,6 +1051,9 @@
 			"default"		"1"
 			"Command"		"engine demoui"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"WorkshopButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1086,8 +1067,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"BugButton"
-			"xpos"			"c14"
-			"ypos"			"64"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1105,6 +1086,9 @@
 			"default"		"1"
 			"Command"		"engine bug"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"ConsoleButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1118,8 +1102,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ReloadButton"
-			"xpos"			"cs-1-14"
-			"ypos"			"82"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1137,6 +1121,9 @@
 			"default"		"1"
 			"Command"		"engine hud_reloadscheme"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"DemoButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1150,8 +1137,8 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"SoundReloadButton"
-			"xpos"			"c14"
-			"ypos"			"82"
+			"xpos"			"0"
+			"ypos"			"7"
 			"zpos"			"1"
 			"wide"			"80"
 			"tall"			"11"
@@ -1169,6 +1156,9 @@
 			"default"		"1"
 			"Command"		"engine snd_restart"
 			"paintbackground"	"0"
+			"pin_to_sibling"	"BugButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
 			"border_default"		"SRCBorderConvex"
 
@@ -1176,6 +1166,63 @@
 			
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"HudWhite"			
+		}
+		
+		"ShowFriendsButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ShowFriendsButton"
+			"xpos"			"0"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Toggle Friends"
+			"font"			"SRCLabel"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine toggle cl_mainmenu_safemode"
+			"paintbackground"	"0"
+			"pin_to_sibling"	"ReloadButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
+			"actionsignallevel"	"2"
+			"border_default"		"SRCBorderConvex"
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"			
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CloseButton"
+			"labelText"		"r"
+			"xpos"			"rs1-4"
+			"ypos"			"4"
+			"zpos"			"101"
+			"wide"			"8"
+			"tall"			"8"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"command"		"motd_hide"
+			"actionsignallevel"	"2"
+
+			"textAlignment"	"center"
+			"font"			"Marlett6"
+			"paintbackground"	"0"
+			"defaultFgColor_override"	"180 180 180 196"
+			"armedFgColor_override"	"180 180 180 196"
 		}
 		
 		"MOTD_CloseButton"
@@ -1189,7 +1236,7 @@
 			"tall"			"5"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
@@ -1720,133 +1767,7 @@
 		"visible"		"0"
 	}
 
-	"FriendsContainer"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"FriendsContainer"
-		"xpos"			"50"
-		"ypos"			"106"
-		"zpos"			"5"
-		"wide"			"260"
-		"tall"			"76"
-		"visible"		"1"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
-		"bgcolor_override"	"160 160 160 128"
-
-		"TitleLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TitleLabel"
-			"font"			"SRCTitle"
-			"labelText"		"Friends"
-			"textAlignment"	"west"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"textinsetx"	"16"
-			"fgcolor_override"	"HudWhite"
-			"proportionaltoparent"	"1"
-		}
-
-		"InnerShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"InnerShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"17"
-			"zpos"			"499"
-			"wide"			"f14"
-			"tall"			"f23"
-			"visible"		"1"	
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-
-			"paintborder"	"1"
-			"border"		"SRCBorderConcave"
-			
-			"PaintBackground"	"1"
-			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"0 0 0 128"
-		}
-
-		"SteamFriendsList"
-		{
-			"ControlName"	"CSteamFriendsListPanel"
-			"fieldname"		"SteamFriendsList"
-			"xpos"			"cs-0.5"
-			"ypos"			"17"
-			"zpos"			"500"
-			"wide"			"f14"
-			"tall"			"f23"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-
-			"columns_count"	"2"
-			"inset_x"		"10"
-			"inset_y"		"5"
-			"row_gap"		"5"
-			"column_gap"	"10"
-			"restrict_width"	"0"
-
-			"friendpanel_kv"
-			{
-				"wide"		"110"
-				"tall"		"20"
-			}
-
-			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"
-				"FieldName"		"ScrollBar"
-				"xpos"			"rs1"
-				"ypos"			"0"
-				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
-				"zpos"			"1000"
-				"nobuttons"		"1"
-				"proportionaltoparent"	"1"
-
-				"Slider"
-				{
-					"fgcolor_override"	"BorderBright"
-					"paintborder"		"0"
-				}
-		
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-				}
-		
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-				}
-			}
-		}
-
-		"BelowDarken"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldname"		"BelowDarken"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"0"
-			"wide"			"0"
-			"tall"			"0"
-			"visible"		"0"
-			"enabled"		"0"	
-		}
-	}
+	
 
 	"EventPromo"
 	{
@@ -2070,28 +1991,176 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
-		"xpos"			"c-290"
-		"ypos"			"210"
+		"xpos"			"50"
+		"ypos"			"50"
 		"zpos"			"-50"
-		"wide"			"270"
-		"tall"			"190"
+		"wide"			"500"
+		"tall"			"132"
 		"visible"		"0"
+		
+		"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"	
+			"fieldName"		"RankPanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"260"
+			"tall"			"46"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+
+			"matchgroup"	"MatchGroup_Casual_12v12"
+
+			"show_model"	"0"
+			"show_type"		"1"
+		}
+		
+		"FriendsContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"FriendsContainer"
+			"xpos"			"0"
+			"ypos"			"rs1"
+			"zpos"			"5"
+			"wide"			"260"
+			"tall"			"76"
+			"visible"		"1"
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"2"
+			"bgcolor_override"	"160 160 160 128"
+			"proportionaltoparent"	"1"
+
+			"TitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabel"
+				"font"			"SRCTitle"
+				"labelText"		"Friends"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"16"
+				"fgcolor_override"	"HudWhite"
+				"proportionaltoparent"	"1"
+			}
+
+			"InnerShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"499"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"	
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"SRCBorderConcave"
+				
+				"PaintBackground"	"1"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"0 0 0 128"
+			}
+
+			"SteamFriendsList"
+			{
+				"ControlName"	"CSteamFriendsListPanel"
+				"fieldname"		"SteamFriendsList"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"500"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"
+				"proportionaltoparent"	"1"
+
+				"columns_count"	"2"
+				"inset_x"		"10"
+				"inset_y"		"5"
+				"row_gap"		"5"
+				"column_gap"	"10"
+				"restrict_width"	"0"
+
+				"friendpanel_kv"
+				{
+					"wide"		"110"
+					"tall"		"20"
+				}
+
+				"ScrollBar"
+				{
+					"ControlName"	"ScrollBar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					"ypos"			"0"
+					"tall"			"f0"
+					"wide"			"5" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"BorderBright"
+						"paintborder"		"0"
+					}
+			
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+			
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}
+			}
+
+			"BelowDarken"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"BelowDarken"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"0"
+				"wide"			"0"
+				"tall"			"0"
+				"visible"		"0"
+				"enabled"		"0"	
+			}
+		}
 
 		"Background"
 		{
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"0"
-			"ypos"			"20"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"260"
-			"tall"			"p0.88"
-			"visible"		"1"
+			"tall"			"f0"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"SRCBorderConvex"
 
 			"TitleLabel"
 			{
@@ -2106,7 +2175,7 @@
 				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"textinsetx"	"20"
 				"fgcolor_override"	"235 227 203 255"
@@ -2123,7 +2192,7 @@
 				"tall"			"26"
 				"autoResize"	"0"
 				"pinCorner"		"3"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"use_proportional_insets" "1"
@@ -2160,7 +2229,7 @@
 				"tall"			"26"
 				"autoResize"	"0"
 				"pinCorner"		"3"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"use_proportional_insets" "1"
@@ -2195,7 +2264,7 @@
 				"wide"					"p0.92"
 				"tall"					"p0.5"
 				"textAlignment"			"north-west"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
@@ -2216,7 +2285,7 @@
 			"zpos"					"100"
 			"wide"					"40"
 			"tall"					"o1"
-			"visible"				"1"
+			"visible"				"0"
 			"enabled"				"1"
 			"image"					"info"
 			"scaleImage"			"1"
@@ -4100,6 +4169,170 @@
 			"wide"			"8"
 			"tall"			"8"
 			"image"			"../hud/defense_buff_explosion_blue"
+		}
+		
+		//A Million Capture Point Textures
+		"blu"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu"
+			"image"			"../sprites/obj_icons/icon_obj_blu"
+		}
+		"blu-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-locked"
+			"image"			"../sprites/obj_icons/icon_obj_blu_locked"
+		}
+		"blu-1-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-1-locked"
+			"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
+		}
+		"blu-2-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-2-locked"
+			"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
+		}
+		"blu-3-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-3-locked"
+			"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
+		}
+		"blu-4-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-4-locked"
+			"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
+		}
+		"blu-mvm-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"blu-mvm-locked"
+			"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
+		}
+		"red"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red"
+			"image"			"../sprites/obj_icons/icon_obj_red"
+		}
+		"red-1"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-1"
+			"image"			"../sprites/obj_icons/icon_obj_1_red"
+		}
+		"red-2"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-2"
+			"image"			"../sprites/obj_icons/icon_obj_2_red"
+		}
+		"red-3"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-3"
+			"image"			"../sprites/obj_icons/icon_obj_3_red"
+		}
+		"red-4"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-4"
+			"image"			"../sprites/obj_icons/icon_obj_4_red"
+		}
+		"red-5"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-5"
+			"image"			"../sprites/obj_icons/icon_obj_5_red"
+		}
+		"red-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-locked"
+			"image"			"../sprites/obj_icons/icon_obj_red_locked"
+		}
+		"red-1-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-1-locked"
+			"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
+		}
+		"red-2-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-2-locked"
+			"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
+		}
+		"red-3-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-3-locked"
+			"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
+		}
+		"red-4-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"red-4-locked"
+			"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
+		}
+		"neutral"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"neutral"
+			"image"			"../sprites/obj_icons/icon_obj_neutral"
+		}
+		"neutral-locked"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"neutral-locked"
+			"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
+		}
+		"white"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"white"
+			"image"			"../sprites/obj_icons/icon_obj_white"
+		}
+		"timer"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"timer"
+			"image"			"../sprites/obj_icons/icon_obj_timer"
+		}
+		"a"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"a"
+			"image"			"../sprites/obj_icons/icon_obj_a"
+		}
+		"b"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"b"
+			"image"			"../sprites/obj_icons/icon_obj_b"
+		}
+		"c"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"c"
+			"image"			"../sprites/obj_icons/icon_obj_c"
+		}
+		"d"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"d"
+			"image"			"../sprites/obj_icons/icon_obj_d"
+		}
+		"e"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"e"
+			"image"			"../sprites/obj_icons/icon_obj_e"
 		}
 	}
 	

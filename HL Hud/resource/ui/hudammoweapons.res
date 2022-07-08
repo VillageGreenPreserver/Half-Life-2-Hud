@@ -29,7 +29,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
 		"font"			"HudNumbers2"
-		"xpos"			"rs1-16"
+		"xpos"			"rs1-16" //rs1-16
 		"ypos"			"r48"
 		"zpos"			"5"
 		"wide"			"132"

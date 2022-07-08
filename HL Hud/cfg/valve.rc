@@ -1,3 +1,10 @@
-// remove dimmer
+//remove default background from matchmaking menu
 wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
+
+//fix target id
+tf_hud_target_id_offset 0
+
+//show friendslist and casual rank, change to 0 to disable
+cl_mainmenu_safemode 1
+
 exec autoexec

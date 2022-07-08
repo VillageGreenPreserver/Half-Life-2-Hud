@@ -188,10 +188,12 @@
 		"xpos"			"0"
 		"ypos"			"0f"
 		"zpos"			"0"
-		"wide"			"260"
-		"tall"			"60"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
-		"PaintBackground"	"0"
+		"PaintBackground"	"1"
+		"PaintBackgroundtype"	"2"
+		"bgcolor_override"	"BGBright"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -221,7 +223,7 @@
 			"fieldName"		"DescLine1"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"195"
+			"wide"			"f0"
 			"zpos"			"100"
 			"tall"			"14"
 			"visible"		"1"
@@ -251,8 +253,8 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"10"
-			"ypos"			"18"
+			"xpos"			"-3"
+			"ypos"			"1"
 			"wide"			"195"
 			"zpos"			"100"
 			"tall"			"14"
@@ -263,6 +265,9 @@
 			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
+			"pin_to_sibling"	"BG"
+			"pin_to_sibling_corner"	"0"
+			"pin_corner_to_sibling"	"0"
 
 			if_mini
 			{
@@ -289,10 +294,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BG"
 			"xpos"			"cs-0.5"
-			"ypos"			"19"
+			"ypos"			"17"
 			"zpos"			"0"
 			"wide"			"f14"
-			"tall"			"22"
+			"tall"			"f23"
 			"paintbackground"		"1"
 			"paintbackgroundType"	"0"
 			"bgcolor_override"		"BGDark"
@@ -305,9 +310,9 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
 			"xpos"			"cs-0.5"
-			"ypos"			"19"
+			"ypos"			"17"
 			"wide"			"f14"
-			"tall"			"22"
+			"tall"			"f23"
 			"proportionaltoparent"	"1"
 
 			if_mini
@@ -395,9 +400,9 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"cs-0.5"
-					"ypos"			"rs1.57"
+					"ypos"			"rs1-3"
 					"wide"			"f6"
-					"tall"			"p0.33"
+					"tall"			"9"
 					"proportionaltoparent"	"1"
 
 					"ProgressBar"

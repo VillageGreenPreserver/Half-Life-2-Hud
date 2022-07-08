@@ -1,7 +1,7 @@
 "Refract"
 {
 	"$refractamount" "0.0"
-	"$refracttint" "{217 217 217}"
+	"$refracttint" "{255 255 255}"
 	"$refractblur" "0.0"
 	"$normalmap" "vgui/replay/thumbnails/refractnormal"
 	

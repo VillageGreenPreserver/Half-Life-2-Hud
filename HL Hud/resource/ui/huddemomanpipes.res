@@ -155,7 +155,7 @@
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"36"
-		"visible"		"0"
+		"visible"		"1"
 		
 		"PipeIcon"
 		{

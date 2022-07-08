@@ -224,12 +224,12 @@
 			"ControlName"		"Label"
 			"fieldName"		"MoveableKeyLabel"
 			"font"			"Default"
-			"fgcolor"			"PanelText"
+			"fgcolor_override"			"PanelText"
 			"xpos"			"0"
-			"ypos"			"14"
+			"ypos"			"c-9"
 			"zpos"			"1"
 			"wide"			"0"
-			"tall"			"9999"
+			"tall"			"0"
 			"autoResize"		"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -239,7 +239,34 @@
 			"dulltext"		"0"
 			"proportionaltoparent"	"1"
 			"brighttext"		"0"
-		}	
+			"AllCaps"	"1"
+		}
+		
+		"MoveableLabel"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"MoveableLabel"
+			"font"			"Default"
+			"fgcolor_override"			"PanelText"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"100"
+			"tall"			"14"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"PICKUP"
+			"textAlignment"		"north"
+			"dulltext"		"0"
+			"proportionaltoparent"	"1"
+			"brighttext"		"0"
+			
+			"pin_to_sibling"	"MoveableKeyLabel"
+			"pin_to_sibling_corner"	"6"
+			"pin_corner_to_sibling"	"4"
+		}
 	}
 	"AvatarImage"
 	{

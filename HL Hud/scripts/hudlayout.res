@@ -1,3 +1,6 @@
+#base "../customizations/killfeed_backgrounds.res"
+#base "../customizations/crosshair.res"
+
 "Resource/HudLayout.res"
 {
 	HudPlayerStatus
@@ -455,50 +458,7 @@
 	}
 	
 	
-	"Crosshair"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Crosshair"
-		"font"			"Crosshairs"
-		"fgcolor"		"255 220 0 255"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"6"
-		"wide"			"f0"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"Q"
-	}
-
-	HudDeathNotice
-	{
-		"fieldName" "HudDeathNotice"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "48"
-		"wide"	 "628"
-		"tall"	 "468"
-
-		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "3"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
-		
-		"TextFont"		"Default"
-		
-		"TeamBlue"		"153 204 255 255"
-		"TeamRed"		"255 64 64 255"
-		"IconColor"		"255 96 50 200"
-		"LocalPlayerColor"	"255 96 50 200"
-
-		"BaseBackgroundColor"	"Blank"		[$WIN32]
-		"LocalBackgroundColor"	"Blank"	[$WIN32]
-	}
+	
 
 	HudVehicle
 	{
@@ -819,8 +779,7 @@
 		"enabled"				"1"
 		"separator_width"		"9"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"3"
 	}
 
 	HudCapturePanel
@@ -1084,10 +1043,10 @@
 		"fieldName"				"HudArenaCapPointCountdown"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-15"
-		"ypos"					"442"
-		"wide"					"30"
-		"tall"					"30"
+		"xpos"					"cs-0.5"
+		"ypos"					"rs1-10"
+		"wide"					"42"
+		"tall"					"42"
 		"zpos"					"99"
 	}
 
