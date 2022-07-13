@@ -2,11 +2,9 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"16"
-
 		"if_killstreak_visible"
 		{
-			"ypos"			"r132"
+			"ypos"			"r90"
 		}
 	}
 			
@@ -60,8 +58,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor_override"		"HL2Yellow"
-		"drawcolor"		"HL2YellowSolid"
+		"drawcolor"		"255 220 0 255"
 	}
 	
 	"ActionText"

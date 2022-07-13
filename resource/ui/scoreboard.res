@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"0"
+		"medal_width"		"20"
 		"avatar_width"		"65"
 		"spacer"			"5"
 		"name_width"		"118"
@@ -249,8 +249,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
 		"zpos"			"-1"
-		"wide"			"p0.75"
-		"tall"			"p0.775"
+		"wide"			"640"
+		"tall"			"372"
 		"scaleImage"	"1"	
 		"proportionaltoparent"	"1"
 		"image"			"replay/thumbnails/message_dialog"
@@ -673,8 +673,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"cs-1-2"
+		"ypos"			"c-116"
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"281"
@@ -686,24 +686,20 @@
 		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"blue"
-		//"show_columns"	"1"
+		"show_columns"	"0"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
-		
-		"pin_to_sibling"		"BlueBG"
-		"pin_to_sibling_corner"	"3"
-		"pin_corner_to_sibling"	"1"
 	}
 	
 	"RedPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"c2"
+		"ypos"			"c-116"	//c-164
 		"zpos"			"20"
 		"wide"			"310"
 		"tall"			"281"
@@ -715,16 +711,12 @@
 		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"red"
-		//"show_columns"	"1"
+		"show_columns"	"0"
 
  		if_mvm
  		{
  			"visible"		"0"
  		}
-		
-		"pin_to_sibling"		"RedBG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
 	}
 	
 	"VerticalLine"

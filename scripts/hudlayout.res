@@ -224,13 +224,11 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
+		"xpos"		"16"
+		"ypos"		"r78" //rs1-54
+		"wide"		"102"
+		"tall"		"24"
+		"alpha"		"255"
 	}
 
 	CMainTargetID
@@ -292,9 +290,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
-		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos"		"0"	[$WIN32]	
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -536,8 +532,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r90"
+		"xpos"			"142"
+		"ypos"			"r48"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -970,7 +966,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"cs-0.5"
-		"ypos"			"c0"
+		"ypos"			"c-50"
 		"wide"			"200"
 		"tall"			"143"
 		"PaintBackgroundType"	"0"
@@ -1341,12 +1337,10 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
-		"wide"			"470"
-		"tall"			"200"
+		"xpos"			"cs-0.5"
+		"ypos"			"c-40"
+		"wide"			"300"
+		"tall"			"122"
 		"PaintBackgroundType"	"0"
 	}
 

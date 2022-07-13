@@ -134,6 +134,8 @@ event ResourceIncrement
 	Animate HudResources		PulseAmount		"1"			Linear	0.1	2
 
 	Animate HudResources		PulseAmount		"0"			Linear	2	2
+	
+	
 }
 
 event ResourceDecrement
@@ -402,6 +404,8 @@ event AccountMoneyRemoved
 
 	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
+	
+
 }
 
 //activecolor - instantly turn green, fade back to yellow
@@ -430,17 +434,8 @@ event FlagOutlineHide
 // Local player flag pickup/drop
 event FlagOutline
 {
-	RunEvent FlagOutlineHide 0.0
-	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
-	
-	Animate OutlineImage	Position	"c-200 140"		Linear 0.1 0.2
-	Animate OutlineImage	Size		"400 200"		Linear 0.1 0.2
-
-	Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2	[$WIN32]
-	Animate OutlineImage	Position	"c-50 r158"		Linear 0.7 0.2	[$X360]
-	Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
-	
-	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+	Animate	FlagBG			bgcolor		"HL2Yellow"			Linear 	0.0		0.1
+	Animate FlagBG			BgColor		"HL2BG"					Deaccel 0.1 	1.75
 }
 
 //===========================================
@@ -466,14 +461,21 @@ event HudSpyDisguiseHide
 
 event HudSpyDisguiseFadeIn
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	Animate TeamImageBG			position	"16 r102"		Linear 0.0 0.2	
+	Animate PlayerStatusAnchor	position	"36 r138"		Linear 0.0 0.2	
+	
+	Animate DisguiseBG			Size		"102 24"		Linear 0.0 0.2
+	Animate DisguiseBG			Position	"0 0"			Linear 0.0 0.2
 }
 
 event HudSpyDisguiseFadeOut
 {
-	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	Animate TeamImageBG			position	"16 r72"		Linear 0.0 0.2	
+	Animate PlayerStatusAnchor	position	"36 r108"		Linear 0.0 0.2	
+	
+	Animate DisguiseBG			Size		"102 0"			Linear 0.0 0.0
+	Animate DisguiseBG			Position	"0 24"			Linear 0.0 0.0
+	
 }
 
 //===========================================
@@ -749,18 +751,18 @@ event IntroMovieContinueBlinkStop
 
 event HasMOTDBlink
 {
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.0 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.2 0.1
 		
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.4 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 0.6 0.1
 	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 0.8 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"0"			Linear 1.0 0.1
 	
-	Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
+	// Animate	MOTD_ShowButtonPanel_SB 	Alpha		"255"		Linear 1.2 0.1
 
-	RunEvent HasMOTDBlinkLoop		2.0
+	// RunEvent HasMOTDBlinkLoop		2.0
 }
 
 event HasMOTDBlinkLoop
@@ -861,7 +863,7 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	
+	FireCommand 0 "playsoundentry CYOA.OrangePanelCollapse"
 }
 
 //===========================================

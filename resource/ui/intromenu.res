@@ -16,22 +16,6 @@
 		"paintbackground"	"0"
 	}
 	
-	"Refract"
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"Refract"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"scaleImage"			"1"
-		"image"					"replay/thumbnails/refract"	
-	}
-	
 	"BG"
 	{
 		"ControlName"	"EditablePanel"

@@ -1,3 +1,5 @@
+#base "mainmenuoverride_preload.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	MainMenuOverride
@@ -190,35 +192,35 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_halloween_2
 		{
-			"image"		"../console/title_team_halloween2013_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_halloween_3
 		{
-			"image"		"../console/title_team_halloween2014_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_halloween_4
 		{	
-			"image"		"../console/title_team_halloween2015_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_halloween_5
 		{	
-			"image"		"../console/title_scream_fortress_2017_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon_widescreen"
+			"image"		"../console/background_ravenholm"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011_widescreen"
+			"image"		"../console/background_c17"
 		}		
 	}
 	
@@ -2065,10 +2067,31 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 
-				"paintborder"	"1"
+				"paintborder"	"0"
 				"border"		"SRCBorderConcave"
 				
 				"PaintBackground"	"1"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"0 0 0 128"
+			}
+			
+			"OuterShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"OuterShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"501"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"	
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"SRCBorderConcave"
+				
+				"PaintBackground"	"0"
 				"PaintBackgroundType"	"0"
 				"bgcolor_override"	"0 0 0 128"
 			}
@@ -4079,260 +4102,6 @@
 			"angles_x"		"10"
 			"angles_y"		"130"
 			"angles_z"		"0"
-		}
-	}
-	
-	"preload"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName"		"preload"
-
-		"xpos"			"r0"
-		"ypos"			"r0"
-		"zpos"			"1"		
-		"wide"			"8"
-		"tall"			"8"
-		
-		"vax_bullet_red"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_bullet_red"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_bullet_red"
-		}
-		
-		"vax_bullet_blue"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_bullet_blue"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_bullet_blue"
-		}
-		
-		"vax_fire_red"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_fire_red"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_fire_red"
-		}
-		
-		"vax_fire_blue"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_fire_blue"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_fire_blue"
-		}
-		
-		"vax_ex_red"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_ex_red"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_explosion_red"
-		}
-		
-		"vax_ex_blue"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"vax_ex_blue"
-
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"		
-			"wide"			"8"
-			"tall"			"8"
-			"image"			"../hud/defense_buff_explosion_blue"
-		}
-		
-		//A Million Capture Point Textures
-		"blu"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu"
-			"image"			"../sprites/obj_icons/icon_obj_blu"
-		}
-		"blu-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-locked"
-			"image"			"../sprites/obj_icons/icon_obj_blu_locked"
-		}
-		"blu-1-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-1-locked"
-			"image"			"../sprites/obj_icons/icon_obj_1_blu_locked"
-		}
-		"blu-2-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-2-locked"
-			"image"			"../sprites/obj_icons/icon_obj_2_blu_locked"
-		}
-		"blu-3-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-3-locked"
-			"image"			"../sprites/obj_icons/icon_obj_3_blu_locked"
-		}
-		"blu-4-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-4-locked"
-			"image"			"../sprites/obj_icons/icon_obj_4_blu_locked"
-		}
-		"blu-mvm-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"blu-mvm-locked"
-			"image"			"../sprites/obj_icons/icon_obj_blu_mannhattan_locked"
-		}
-		"red"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red"
-			"image"			"../sprites/obj_icons/icon_obj_red"
-		}
-		"red-1"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-1"
-			"image"			"../sprites/obj_icons/icon_obj_1_red"
-		}
-		"red-2"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-2"
-			"image"			"../sprites/obj_icons/icon_obj_2_red"
-		}
-		"red-3"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-3"
-			"image"			"../sprites/obj_icons/icon_obj_3_red"
-		}
-		"red-4"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-4"
-			"image"			"../sprites/obj_icons/icon_obj_4_red"
-		}
-		"red-5"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-5"
-			"image"			"../sprites/obj_icons/icon_obj_5_red"
-		}
-		"red-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-locked"
-			"image"			"../sprites/obj_icons/icon_obj_red_locked"
-		}
-		"red-1-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-1-locked"
-			"image"			"../sprites/obj_icons/icon_obj_1_red_locked"
-		}
-		"red-2-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-2-locked"
-			"image"			"../sprites/obj_icons/icon_obj_2_red_locked"
-		}
-		"red-3-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-3-locked"
-			"image"			"../sprites/obj_icons/icon_obj_3_red_locked"
-		}
-		"red-4-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"red-4-locked"
-			"image"			"../sprites/obj_icons/icon_obj_4_red_locked"
-		}
-		"neutral"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"neutral"
-			"image"			"../sprites/obj_icons/icon_obj_neutral"
-		}
-		"neutral-locked"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"neutral-locked"
-			"image"			"../sprites/obj_icons/icon_obj_neutral_locked"
-		}
-		"white"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"white"
-			"image"			"../sprites/obj_icons/icon_obj_white"
-		}
-		"timer"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"timer"
-			"image"			"../sprites/obj_icons/icon_obj_timer"
-		}
-		"a"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"a"
-			"image"			"../sprites/obj_icons/icon_obj_a"
-		}
-		"b"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"b"
-			"image"			"../sprites/obj_icons/icon_obj_b"
-		}
-		"c"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"c"
-			"image"			"../sprites/obj_icons/icon_obj_c"
-		}
-		"d"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"d"
-			"image"			"../sprites/obj_icons/icon_obj_d"
-		}
-		"e"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"e"
-			"image"			"../sprites/obj_icons/icon_obj_e"
 		}
 	}
 	

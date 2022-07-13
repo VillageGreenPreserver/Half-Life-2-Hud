@@ -38,18 +38,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
+		"xpos"			"3"	
+		"ypos"			"r67"
 		"zpos"			"2"
-		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide"			"0"
 		"tall"			"55"
-		"tall_minmode"	"27"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
 		"scaleImage"	"1"	
@@ -410,5 +404,44 @@
 			"proportionaltoparent"	"1"
 			"auto_wide_tocontents"	"1"
 		}
+	}
+	
+	"TeamImage"
+	{	
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"TeamImage"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"114"
+		"tall"	 			"29"
+		"visible"			"1"
+		"enabled"			"1"
+		"proportionaltoparent"	"1"
+		"paintbackground"	"1"
+		"image"				""
+		"teambg_2"			"replay/thumbnails/team_red"
+		"teambg_3"			"replay/thumbnails/team_blu"
+		"scaleImage"		"1"
+		
+		"pin_to_sibling"		"TeamImageBG"
+		"pin_to_sibling_corner"	"2"
+		"pin_corner_to_sibling"	"2"
+	}
+	
+	"TeamImageBG"
+	{	
+		"ControlName"		"EditablePanel"
+		"fieldName"			"TeamImageBG"
+		"xpos"				"16"
+		"ypos"				"r72" //rs1-84
+		"zpos"				"-1"
+		"wide"				"64"
+		"tall"	 			"18"
+		"visible"			"1"
+		"enabled"			"1"
+		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"HL2BG"
 	}
 }
