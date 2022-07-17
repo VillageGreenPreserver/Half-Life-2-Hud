@@ -75,7 +75,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"paintbackgroundtype"	"0"
 		"roundedcorners"	"0"
 		"defaultbgColor_override"	"0 0 0 180"

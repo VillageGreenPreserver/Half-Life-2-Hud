@@ -310,6 +310,33 @@
 		}
 	}
 	
+	"CarriedImageAnchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"CarriedImageAnchor"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"o1"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"FlagBG"
+		"pin_to_sibling_corner"	"4"
+		"pin_corner_to_sibling"	"4"
+		
+		"if_hybrid"
+		{
+			"ypos"		"r142"
+		}
+		
+		"if_specialdelivery"
+		{
+			"visible"	"r142"
+		}
+	}
+	
 	"CarriedImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -327,7 +354,9 @@
 		"paintbackgroundtype"	"2"
 		"bgcolor_override"	"HL2BG"
 		
-		"pin_to_sibling"		"FlagBG"
+		"alpha"	"200"
+		
+		"pin_to_sibling"		"CarriedImageAnchor"
 		"pin_to_sibling_corner"	"4"
 		"pin_corner_to_sibling"	"4"
 		

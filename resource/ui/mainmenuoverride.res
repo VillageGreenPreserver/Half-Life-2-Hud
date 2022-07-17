@@ -4107,7 +4107,9 @@
 	
 	"DashboardDimmer"
 	{
-		"wide" "0"
-		"tall" "0"
+		"wide" "f0"
+		"tall" "f0"
+		"paintborder"	"0"
+		"roundedcorners"	"0"
 	}
 }

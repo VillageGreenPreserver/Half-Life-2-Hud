@@ -253,11 +253,30 @@
 			"image"			"../sprites/obj_icons/icon_obj_e"
 		}
 		
-		"refract"
+		//Payload Icons
+		"PL-Red"
 		{
 			"ControlName"	"ImagePanel"
-			"fieldName"		"refract"
-			"image"			"replay/thumbnails/refract"
+			"fieldName"		"PL-Red"
+			"image"			"../hud/cart_point_red"
+		}
+		"PL-Red-Opaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PL-Red-Opaque"
+			"image"			"../hud/cart_point_red_opaque"
+		}
+		"PL-Blu"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PL-Blu"
+			"image"			"../hud/cart_point_blue"
+		}
+		"PL-Blu-Opaque"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PL-Blu-Opaque"
+			"image"			"../hud/cart_point_blue_opaque"
 		}
 	}
 }

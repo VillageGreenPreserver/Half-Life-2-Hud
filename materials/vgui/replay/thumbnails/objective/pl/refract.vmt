@@ -1,0 +1,12 @@
+"Refract"
+{
+	"$refractamount" "0.0"
+	"$refracttint" "{216 216 216}"
+	"$refractblur" "0.0"
+	"$normalmap" "vgui/replay/thumbnails/objective/pl/refract"
+	
+	<dx90
+	{
+		 	"$fallbackmaterial" "vgui/replay/thumbnails/dev/blank"
+	}
+}
