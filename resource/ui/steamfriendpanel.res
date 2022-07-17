@@ -14,6 +14,7 @@
 
 	"InteractButton"
 	{
+		"ControlName"			"CExButton"
 		"fieldName"	"InteractButton"
 		"xpos"		"0"
 		"ypos"		"0"
@@ -25,11 +26,12 @@
 		"labeltext"	""
 		"textalignment"	"center"
 		"stay_armed_on_click"	"1"
-		"roundedcorners"	"0"
+		"roundedcorners"	"1"
 		"paintbackground"	"1"
 		"paintborder"	"1"
 		
 		"border_default"	"NoBorder"
+		"border"	"NoBorder"
 		"border_armed"	"FriendHighlightBorderThick"
 
 		"defaultBgColor_override"	"0 0 0 0"

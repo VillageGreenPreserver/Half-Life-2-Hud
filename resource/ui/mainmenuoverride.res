@@ -534,7 +534,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"actionsignallevel" "2"
-
+			"paintborder"	"0"
 			"Command"		"noti_show"
 			"navActivate"	"<QuickplayButton"
 
@@ -1989,6 +1989,25 @@
 
 	} // EventPromo
 
+	"RankPanel"
+		{
+			"ControlName"	"CPvPRankPanel"	
+			"fieldName"		"RankPanel"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"0"
+			"tall"			"46"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"1"
+
+			"matchgroup"	"MatchGroup_Casual_12v12"
+
+			"show_model"	"0"
+			"show_type"		"1"
+		}
+
 	"SafeMode"
 	{
 		"ControlName"	"EditablePanel"
@@ -2586,6 +2605,7 @@
 			"textAlignment"	"west"
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
+			"paintborder"	"0"
 			"actionsignallevel"	"2"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -2626,7 +2646,7 @@
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2669,7 +2689,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2712,7 +2732,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2755,7 +2775,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2802,7 +2822,7 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
-			
+			"paintborder"	"0"
 			"defaultfgColor_override"	"HudWhite"			
 			"armedfgColor_override"	"BorderBright"
 			
@@ -2841,7 +2861,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2884,7 +2904,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2927,7 +2947,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -2970,7 +2990,7 @@
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3009,7 +3029,7 @@
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3056,7 +3076,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"auto_wide_tocontents"	"0"
-			
+			"paintborder"	"0"
 			"paintbackground"	"0"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -3121,7 +3141,7 @@
 			"brighttext"	"0"
 			"default"		"1"
 			"auto_wide_tocontents"	"0"
-			
+			"paintborder"	"0"
 			"paintborder"	"0"
 			"paintbackground"	"0"
 			
@@ -3184,7 +3204,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
-			
+			"paintborder"	"0"
 			"paintborder"	"0"
 			"paintbackground"	"0"
 			
@@ -3244,7 +3264,7 @@
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3287,7 +3307,7 @@
 			"command"		"OpenServerBrowser"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3330,7 +3350,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3373,7 +3393,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3416,7 +3436,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3459,7 +3479,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3502,7 +3522,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3545,7 +3565,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
@@ -3588,7 +3608,7 @@
 			"command"		"OpenOptionsDialog"
 			"paintbackground"	"0"
 			"actionsignallevel"	"2"
-			
+			"paintborder"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
