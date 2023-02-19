@@ -211,8 +211,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthValue2			BgColor		"HL2Yellow"			Linear 	0.0		0.1
-	Animate PlayerStatusHealthValue2			BgColor		"HL2BG"					Deaccel 0.1 	1.75
+	Animate	HealthBG			BgColor		"HL2Yellow"			Linear 	0.0		0.1
+	Animate HealthBG			BgColor		"HL2BG"					Deaccel 0.1 	1.75
 
 	Animate PlayerStatusHealthValueGlow		Alpha		"255"					Linear	0.0		0.1
 	Animate PlayerStatusHealthValueGlow		Alpha		"0"						Deaccel	0.1		0.9
@@ -226,8 +226,8 @@ event HudHealthBonusPulsePulse
 	Animate PlayerStatusHealthValueGlow		Alpha		"255"					Linear	0.0		0.1
 	Animate PlayerStatusHealthValueGlow		Alpha		"0"						Deaccel	0.1		0.8
 	
-	Animate PlayerStatusHealthValue2			BgColor		"HL2Yellow"			Linear	0.0		0.1
-	Animate PlayerStatusHealthValue2			BgColor		"HL2BG"					Deaccel	0.1		0.8
+	Animate HealthBG			BgColor		"HL2Yellow"			Linear	0.0		0.1
+	Animate HealthBG			BgColor		"HL2BG"					Deaccel	0.1		0.8
 
 	RunEvent HudHealthBonusPulseLoop	0.8
 }
@@ -250,8 +250,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthValue2			BgColor		"HL2DamagedBg"			Linear 	0.0		0.1
-	Animate PlayerStatusHealthValue2			BgColor		"HL2BG"					Deaccel 0.1 	1.75
+	Animate	HealthBG			BgColor		"HL2DamagedBg"			Linear 	0.0		0.1
+	Animate HealthBG			BgColor		"HL2BG"					Deaccel 0.1 	1.75
 
 	Animate PlayerStatusHealthLabel			FgColor		"HL2BrightFg"			Linear	0.0		0.2
 	Animate PlayerStatusHealthLabel			FgColor		"HL2DamagedFg"			Linear	0.2		1.2
@@ -279,8 +279,8 @@ event HudHealthDyingPulsePulse
 	Animate PlayerStatusHealthValueGlow		FgColor		"HL2BrightDamagedFg"	Linear	0.0		0.1
 	Animate PlayerStatusHealthValueGlow		FgColor		"HL2DamagedFg"			Deaccel	0.1		0.8
 	
-	Animate PlayerStatusHealthValue2			BgColor		"HL2DamagedFg"			Linear	0.0		0.1
-	Animate PlayerStatusHealthValue2			BgColor		"HL2BG"					Deaccel	0.1		0.8
+	Animate HealthBG			BgColor		"HL2DamagedFg"			Linear	0.0		0.1
+	Animate HealthBG			BgColor		"HL2BG"					Deaccel	0.1		0.8
 
 	RunEvent HudHealthDyingPulseLoop	0.8
 }
@@ -297,7 +297,7 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulsePulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
 	
-	Animate	PlayerStatusHealthValue2			BgColor		"HL2BG"				Linear 	0.0		0.0
+	Animate	HealthBG			BgColor		"HL2BG"				Linear 	0.0		0.0
 	Animate PlayerStatusHealthLabel			FgColor		"HL2Yellow"			Linear	0.0		0.0
 	Animate PlayerStatusHealthValue2 		FgColor		"HL2Yellow"			Linear	0.0		0.0
 	Animate PlayerStatusHealthValueGlow		Alpha		"0"					Linear	0.0		0.0

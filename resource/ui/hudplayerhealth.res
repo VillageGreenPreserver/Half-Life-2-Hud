@@ -55,6 +55,22 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
+	"HealthBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"HealthBG"
+		"xpos"			"16"
+		"ypos"			"r48"
+		"zpos"			"4"
+		"wide"			"102"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"HL2BG"
+	}
+	
 	"PlayerStatusHealthValue2"
 	{
 		"ControlName"	"CExLabel"
@@ -67,7 +83,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"paintbackground"	"1"
+		"paintbackground"	"0"
 		"paintbackgroundtype"	"2"
 		"textAlignment"	"west"
 		"use_proportional_insets"	"1"
@@ -76,6 +92,7 @@
 		"font"			"HudNumbers2"
 		"fgcolor"		"HL2Yellow"
 		"bgcolor_override"		"HL2BG"
+		"auto_wide_tocontents" "1"
 	}
 
 	"PlayerStatusHealthValueGlow"
@@ -96,6 +113,7 @@
 		"use_proportional_insets"	"1"
 		"font"			"HudNumbersGlow"
 		"fgcolor"		"HL2Yellow"
+		"auto_wide_tocontents" "1"
 		"alpha"			"0"
 	}
 	"PlayerStatusHealthLabel"
