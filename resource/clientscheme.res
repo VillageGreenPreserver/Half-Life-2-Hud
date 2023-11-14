@@ -3274,6 +3274,16 @@ Scheme
 				"antialias"	"1" [!$OSX]
 			}
 		}
+		"C_Src_Marlett6"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"6"
+				"weight"	"0"
+				"symbol"	"1"
+			}
+		}
 	}
 
 	//

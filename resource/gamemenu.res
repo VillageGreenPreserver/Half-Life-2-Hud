@@ -12,13 +12,13 @@
 	"FindGameButton"
 	{
 		"label"			"FIND SERVERS"
-		"command"		"OpenServerBrowser"
+		"command"		"find_game"
 		"OnlyAtMenu"	"1"
 	}
-	"CreateGameButton"
+	"FindGameDummy"
 	{
-		"label"			"CREATE SERVER"
-		"command"		"OpenCreateMultiplayerGameDialog"
+		"label"			"FIND SERVERS"
+		"command"		"find_game"
 		"OnlyAtMenu"	"1"
 	}
 	"SettingsButton2"
@@ -27,30 +27,24 @@
 		"command"		"OpenOptionsDialog"
 		"OnlyAtMenu"	"1"
 	}
-	"TFSettingsButton2"
-	{
-		"label"			"ADVANCED OPTIONS"
-		"command"		"opentf2options"
-		"OnlyAtMenu"	"1"
-	}
 	"ItemsButton2"
 	{
 		"label"			"CHARACTER SETUP"
 		"command"		"engine open_charinfo"
 		"OnlyAtMenu"	"1"
 	}
-	"ShopButton2"
-	{
-		"label"			"STORE"
-		"command"		"engine open_store"
-		"OnlyAtMenu"	"1"
-	}
-	"ContractButton2"
-	{
-		"label"			"CONTRACTS"
-		"command"		"questlog"
-		"OnlyAtMenu"	"1"
-	}
+	// "ShopButton2"
+	// {
+	// 	"label"			"STORE"
+	// 	"command"		"engine open_store"
+	// 	"OnlyAtMenu"	"1"
+	// }
+	// "ContractButton2"
+	// {
+	// 	"label"			"CONTRACTS"
+	// 	"command"		"questlog"
+	// 	"OnlyAtMenu"	"1"
+	// }
 	"MotdButton2"
 	{
 		"label"			"MORE"
@@ -105,13 +99,14 @@
 	"FindGameButton_IG"
 	{
 		"label"			"FIND SERVERS"
-		"command"		"OpenServerBrowser"
+		"command"		"find_game"
 		"OnlyInGame"	"1"
 	}
-	"CreateGameButton_IG"
+	
+	"FindGameDummy_IG"
 	{
-		"label"			"CREATE SERVER"
-		"command"		"OpenCreateMultiplayerGameDialog"
+		"label"			"FIND SERVERS"
+		"command"		"find_game"
 		"OnlyInGame"	"1"
 	}
 	"SettingsButton2_IG"
@@ -120,28 +115,10 @@
 		"command"		"OpenOptionsDialog"
 		"OnlyInGame"	"1"
 	}
-	"TFSettingsButton2_IG"
-	{
-		"label"			"ADVANCED OPTIONS"
-		"command"		"opentf2options"
-		"OnlyInGame"	"1"
-	}
 	"ItemsButton2_IG"
 	{
 		"label"			"CHARACTER SETUP"
 		"command"		"engine open_charinfo"
-		"OnlyInGame"	"1"
-	}
-	"ShopButton2_IG"
-	{
-		"label"			"STORE"
-		"command"		"engine open_store"
-		"OnlyInGame"	"1"
-	}
-	"ContractButton2_IG"
-	{
-		"label"			"CONTRACTS"
-		"command"		"questlog"
 		"OnlyInGame"	"1"
 	}
 	"MotdButton2_IG"

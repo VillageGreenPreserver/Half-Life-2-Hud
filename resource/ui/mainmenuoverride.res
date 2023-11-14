@@ -471,12 +471,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
-		"navRight"		"Notifications_Panel"
-		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
 		"SubImage"
 		{
@@ -739,12 +733,6 @@
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
-
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
-		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
 		{
@@ -802,16 +790,12 @@
 		"ypos"			"c0"
 		"zpos"			"10"
 		"wide"			"196"
-		"tall"			"118"
+		"tall"			"135"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"1"
 		"bgcolor_override"	"BGBright"
 		"paintborder"		"0"
-
-		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_ShowButtonPanel"	// when a sub element can't nav left it will pass through this
-		"navToRelay"	"MOTD_URLButton"		// when naving to this it auto navs to this child instead
 		
 		"MOTD_HeaderContainer"
 		{
@@ -1194,6 +1178,76 @@
 			"Command"		"engine toggle cl_mainmenu_safemode"
 			"paintbackground"	"0"
 			"pin_to_sibling"	"ReloadButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
+			"actionsignallevel"	"2"
+			"border_default"		"SRCBorderConvex"
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"			
+		}
+		
+		"StoreButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"StoreButton"
+			"xpos"			"0"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Mann Co. Store"
+			"font"			"SRCLabel"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"engine open_store"
+			"paintbackground"	"0"
+			"pin_to_sibling"	"SoundReloadButton"	
+			"pin_to_sibling_corner"	"6"	
+			"pin_corner_to_sibling"	"4"	
+			"actionsignallevel"	"2"
+			"border_default"		"SRCBorderConvex"
+
+			"proportionaltoparent"	"1"
+			
+			"defaultfgColor_override"	"HudWhite"			
+			"armedfgColor_override"	"HudWhite"			
+		}
+		
+		"ContractButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"ContractButton"
+			"xpos"			"0"
+			"ypos"			"7"
+			"zpos"			"1"
+			"wide"			"80"
+			"tall"			"11"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"Contracker"
+			"font"			"SRCLabel"
+			"textAlignment"	"west"
+			"textinsetx"	"6"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"questlog"
+			"paintbackground"	"0"
+			"pin_to_sibling"	"ShowFriendsButton"	
 			"pin_to_sibling_corner"	"6"	
 			"pin_corner_to_sibling"	"4"	
 			"actionsignallevel"	"2"
@@ -2013,10 +2067,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SafeMode"
 		"xpos"			"50"
-		"ypos"			"50"
-		"zpos"			"-50"
-		"wide"			"500"
-		"tall"			"132"
+		"ypos"			"10"
+		"zpos"			"1"
+		"wide"			"307"
+		"tall"			"175"
 		"visible"		"0"
 		
 		"RankPanel"
@@ -2038,6 +2092,210 @@
 			"show_type"		"1"
 		}
 		
+		"PartyBorder"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"PartyBorder"
+			"xpos"			"261"
+			"ypos"			"0"
+			"zpos"			"5"
+			"wide"			"46"
+			"tall"			"f0"
+			"visible"		"1"
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"2"
+			"texture2"		"vgui/replay/thumbnails/close"
+			"bgcolor_override"	"160 160 160 128"
+			"proportionaltoparent"	"1"
+
+			"TitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"TitleLabel"
+				"font"			"SRCTitle"
+				"labelText"		"Party"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"14"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"16"
+				"fgcolor_override"	"HudWhite"
+				"proportionaltoparent"	"1"
+			}
+
+			"InnerShadow"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"InnerShadow"
+				"xpos"			"cs-0.5"
+				"ypos"			"17"
+				"zpos"			"0"
+				"wide"			"f14"
+				"tall"			"f23"
+				"visible"		"1"	
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+
+				"paintborder"	"1"
+				"border"		"SRCBorderConcave"
+				
+				"PaintBackground"	"1"
+				"PaintBackgroundType"	"0"
+				"bgcolor_override"	"0 0 0 128"
+			}
+		
+			"PartySlot0"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot0"
+				"xpos"			"11"
+				"ypos"			"21"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"0"
+			}
+
+			"PartySlot1"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot1"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"1"
+				
+				"pin_to_sibling"	"PartySlot0"
+				"pin_corner_to_sibling"	"0"
+				"pin_to_sibling_corner"	"2"
+			}
+
+			"PartySlot2"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot2"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"2"
+				
+				"pin_to_sibling"	"PartySlot1"
+				"pin_corner_to_sibling"	"0"
+				"pin_to_sibling_corner"	"2"
+			}
+
+			"PartySlot3"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot3"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"3"
+				
+				"pin_to_sibling"	"PartySlot2"
+				"pin_corner_to_sibling"	"0"
+				"pin_to_sibling_corner"	"2"
+			}
+
+			"PartySlot4"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot4"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"4"
+				
+				"pin_to_sibling"	"PartySlot3"
+				"pin_corner_to_sibling"	"0"
+				"pin_to_sibling_corner"	"2"
+			}
+
+			"PartySlot5"
+			{
+				"ControlName"	"CDashboardPartyMember"
+				"fieldName"		"PartySlot5"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"100"
+				"wide"			"o1"
+				"tall"			"24"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"1"
+				"keyboardinputenabled"	"0"
+
+				"party_slot"	"5"
+				
+				"pin_to_sibling"	"PartySlot4"
+				"pin_corner_to_sibling"	"0"
+				"pin_to_sibling_corner"	"2"
+			}
+		}
+		
 		"FriendsContainer"
 		{
 			"ControlName"	"EditablePanel"
@@ -2046,7 +2304,7 @@
 			"ypos"			"rs1"
 			"zpos"			"5"
 			"wide"			"260"
-			"tall"			"76"
+			"tall"			"128"
 			"visible"		"1"
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"2"
@@ -2579,16 +2837,101 @@
 		}		
 	}
 
-	"FindGameButton"
+	"MMDashboard"
+	{
+		"FindGameButton"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"FindGameButton"
+			"xpos"			"50"
+			"ypos"			"c0"
+			"zpos"			"1"
+			"wide"			"74"
+			"tall"			"14"
+			"visible"		"1"
+			"proportionaltoparent"	"0"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"FIND SERVERS"
+				"font"			"MenuButton"
+				"textAlignment"	"west"
+				"command"		"find_game"
+				"paintbackground"	"0"
+				"paintborder"	"0"
+				"actionsignallevel"	"2"
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"sound_armed"	"UI/buttonrollover.wav"
+				
+				"defaultfgColor_override"	"Blank"			
+				"armedfgColor_override"	"BorderBright"
+				
+				"proportionaltoparent"	"1"			
+			}		
+		}
+
+		"FindGameButton_IG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"FindGameButton_IG"
+			"xpos"			"50"
+			"ypos"			"rs1"
+			"zpos"			"1"
+			"wide"			"74"
+			"tall"			"14"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"labelText"		"FIND SERVERS"
+				"font"			"MenuButton"
+				"textAlignment"	"west"
+				"command"		"find_game"
+				"paintbackground"	"0"
+				"paintborder"	"0"
+				"actionsignallevel"	"2"
+				
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+				"sound_armed"	"UI/buttonrollover.wav"
+				
+				"defaultfgColor_override"	"blank"			
+				"armedfgColor_override"	"BorderBright"
+				
+				"proportionaltoparent"	"1"			
+			}		
+		}
+	}
+	"FindGameDummy"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindGameButton"
+		"fieldname"		"FindGameDummy"
 		"xpos"			"50"
 		"ypos"			"c0"
-		"zpos"			"1"
+		"zpos"			"-2"
 		"wide"			"74"
 		"tall"			"14"
 		"visible"		"1"
+		"proportionaltoparent"	"1"
 
 		"SubButton"
 		{
@@ -2599,11 +2942,11 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
 			"labelText"		"FIND SERVERS"
 			"font"			"MenuButton"
 			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
+			"command"		"find_game"
 			"paintbackground"	"0"
 			"paintborder"	"0"
 			"actionsignallevel"	"2"
@@ -2613,53 +2956,11 @@
 			"sound_armed"	"UI/buttonrollover.wav"
 			
 			"defaultfgColor_override"	"HudWhite"			
+			"disabledfgColor2_override"	"HudWhite"			
 			"armedfgColor_override"	"BorderBright"
 			
 			"proportionaltoparent"	"1"			
 		}		
-	}
-	
-	"CreateGameButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CreateGameButton"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"FIND SERVERS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}		
-		
-		"pin_to_sibling"		"FindGameButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
 	}
 	
 	"SettingsButton2"
@@ -2700,50 +3001,7 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"CreateGameButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"TFSettingsButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TFSettingsButton2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"SettingsButton2"
+		"pin_to_sibling"		"FindGameDummy"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
@@ -2786,97 +3044,10 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"TFSettingsButton2"
+		"pin_to_sibling"		"SettingsButton2"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
-	
-	"ShopButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShopButton2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			"paintborder"	"0"
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"ItemsButton2"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"ContractButton2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ContractButton2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"ShopButton2"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
 	"MotdButton2"
 	{
 		"ControlName"	"EditablePanel"
@@ -2915,7 +3086,7 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"ContractButton2"
+		"pin_to_sibling"		"ItemsButton2"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
@@ -3237,13 +3408,13 @@
 		"pin_corner_to_sibling"	"0"
 	}
 
-	"FindGameButton_IG"
+	"FindGameDummy_IG"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"FindGameButton_IG"
-		"xpos"			"0"
-		"ypos"			"14"
-		"zpos"			"1"
+		"fieldname"		"FindGameDummy_IG"
+		"xpos"			"50"
+		"ypos"			"336"
+		"zpos"			"-2"
 		"wide"			"74"
 		"tall"			"14"
 		"visible"		"1"
@@ -3257,7 +3428,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"enabled"		"1"
+			"enabled"		"0"
 			"labelText"		"FIND SERVERS"
 			"font"			"MenuButton"
 			"textAlignment"	"west"
@@ -3269,59 +3440,13 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"sound_armed"	"UI/buttonrollover.wav"
 			
-			"defaultfgColor_override"	"HudWhite"			
+			"disabledfgColor2_override"	"HudWhite"			
 			"armedfgColor_override"	"BorderBright"
 			
 			"proportionaltoparent"	"1"			
 		}		
-		
-		"pin_to_sibling"		"MutePlayersButton"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
 	}
 	
-	"CreateGameButton_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"CreateGameButton_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"FIND SERVERS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenServerBrowser"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}		
-		
-		"pin_to_sibling"		"FindGameButton_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
 	
 	"SettingsButton2_IG"
 	{
@@ -3361,50 +3486,7 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"CreateGameButton_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"TFSettingsButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TFSettingsButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"SettingsButton2_IG"
+		"pin_to_sibling"		"FindGameDummy_IG"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
@@ -3447,96 +3529,11 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"TFSettingsButton2_IG"
+		"pin_to_sibling"		"SettingsButton2_IG"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
 	
-	"ShopButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ShopButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"ItemsButton2_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
-	
-	"ContractButton2_IG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"ContractButton2_IG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"74"
-		"tall"			"14"
-		"visible"		"1"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"OPTIONS"
-			"font"			"MenuButton"
-			"textAlignment"	"west"
-			"command"		"OpenOptionsDialog"
-			"paintbackground"	"0"
-			"actionsignallevel"	"2"
-			"paintborder"	"0"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"sound_armed"	"UI/buttonrollover.wav"
-			
-			"defaultfgColor_override"	"HudWhite"			
-			"armedfgColor_override"	"BorderBright"
-			
-			"proportionaltoparent"	"1"			
-		}	
-		
-		"pin_to_sibling"		"ShopButton2_IG"
-		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"0"
-	}
 	
 	"MotdButton2_IG"
 	{
@@ -3576,7 +3573,7 @@
 			"proportionaltoparent"	"1"			
 		}	
 		
-		"pin_to_sibling"		"ContractButton2_IG"
+		"pin_to_sibling"		"ItemsButton2_IG"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
 	}
@@ -4100,7 +4097,7 @@
 
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"-2"		
 		"wide"			"300"
 		"tall"			"300"
 		"autoResize"		"0"

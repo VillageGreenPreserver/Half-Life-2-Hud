@@ -5,6 +5,6 @@ wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; w
 tf_hud_target_id_offset 0
 
 //show friendslist and casual rank, change to 0 to disable
-cl_mainmenu_safemode 1
+cl_mainmenu_safemode 0
 
 exec autoexec

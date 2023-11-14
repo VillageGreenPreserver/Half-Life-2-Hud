@@ -43,6 +43,19 @@
 		"teambg_2"		"../hud/class_spyred"
 		"teambg_3"		"../hud/class_spyblue"			
 	}	
+	"test"
+	{
+		"ControlName"	"ImagePanel"
+		"xpos"			"0"	
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/test"
+		"scaleImage"	"1"		
+	}	
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"

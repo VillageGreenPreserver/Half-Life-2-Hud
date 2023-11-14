@@ -11,6 +11,19 @@
 		"wide"			"8"
 		"tall"			"8"
 		
+		"corner"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"corner"
+
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"		
+			"wide"			"8"
+			"tall"			"8"
+			"image"			"hud/800corner1"
+		}
+		
 		"vax_bullet_red"
 		{
 			"ControlName"		"ImagePanel"

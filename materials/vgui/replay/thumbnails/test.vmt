@@ -1,0 +1,13 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\numbers"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"Proxies"
+	{
+		"PlayerTeam"
+		{
+			"resultVar"	"$frame"
+		}
+	}
+}
