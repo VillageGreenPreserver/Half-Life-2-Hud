@@ -61,6 +61,42 @@
 		"labelText"		""
 	}	
 	
+	"CloseLeft"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"CloseLeft"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"999"
+		"wide"			"f540"
+		"tall"			"339"
+		"command"		"close"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintBackground"	"0"
+		"labelText"		""
+		"pin_to_sibling"	"Border"
+		"pin_corner_to_sibling"	"1"
+	}
+	
+	"CloseRight"
+	{
+		"ControlName"	"Button"
+		"fieldName"		"CloseRight"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"999"
+		"wide"			"f540"
+		"tall"			"339"
+		"command"		"close"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintBackground"	"0"
+		"labelText"		""
+		"pin_to_sibling"	"Border"
+		"pin_to_sibling_corner"	"1"
+	}	
+	
 	"Closebottom"
 	{
 		"ControlName"	"Button"

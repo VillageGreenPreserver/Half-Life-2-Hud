@@ -54,7 +54,7 @@
 	}
 	"Seperator"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"Seperator"
 		"xpos"			"7"
 		"wide"			"1"
@@ -70,6 +70,23 @@
 
 		"pin_to_sibling"	"ScoutButton"
 		"pin_to_sibling_corner"	"1"
+	}
+	"Seperator2"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"Seperator2"
+		"xpos"			"0"
+		"wide"			"58"
+		"tall"			"1"
+		"ypos"			"3"
+		"zpos"			"-2"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"SRCBorderConcave"
+		"bgcolor_override"		"blank"
+
+		"pin_to_sibling"	"SpyButton"
+		"pin_to_sibling_corner"	"2"
 	}
 	
 	"ScoutButton"
@@ -370,6 +387,70 @@
 		"pin_to_sibling_corner"	"2"	
 		"pin_corner_to_sibling"	"0"	
 		"actionsignallevel"	"2"
+		"border_default"		"SRCBorderConvex"
+
+		"proportionaltoparent"	"1"
+		
+		"defaultfgColor_override"	"HudWhite"			
+		"armedfgColor_override"	"HudWhite"			
+	}
+	
+	"BPButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BPButton"
+		"xpos"			"0"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"58"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Backpack"
+		"font"			"SRCLabel"
+		"textAlignment"	"west"
+		"Command"		"backpack"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling"		"Seperator2"	
+		"pin_to_sibling_corner"	"2"	
+		"pin_corner_to_sibling"	"0"	
+
+		"actionsignallevel"		"2"
+		"border_default"		"SRCBorderConvex"
+
+		"proportionaltoparent"	"1"
+		
+		"defaultfgColor_override"	"HudWhite"			
+		"armedfgColor_override"	"HudWhite"			
+	}
+	
+	"BPButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BPButton"
+		"xpos"			"0"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"58"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"Backpack"
+		"font"			"SRCLabel"
+		"textAlignment"	"west"
+		"Command"		"backpack"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling"		"Seperator2"	
+		"pin_to_sibling_corner"	"2"	
+		"pin_corner_to_sibling"	"0"	
+
+		"actionsignallevel"		"2"
 		"border_default"		"SRCBorderConvex"
 
 		"proportionaltoparent"	"1"
@@ -1149,32 +1230,42 @@
 	{
 		"ControlName"		"CClassLoadoutPanel"
 		"fieldName"			"class_loadout_panel"
-		"xpos"				"0"
-		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
+		"xpos"				"79"
+		"ypos"				"7"
+		"wide"				"446"
+		"tall"				"298"
 		"zpos"				"1"
 		"visible"			"0"
 	}
+
+	"bppin"
+	{
+		"ControlName"	"Panel"
+		"fieldName"		"bppin"
+		"xpos"			"79"
+		"ypos"			"7"
+	}
+
 	"backpack_panel"
 	{
 		"ControlName"		"CBackpackPanel"
 		"fieldName"			"backpack_panel"
 		"xpos"				"0"
 		"ypos"				"0"
-		"wide"				"f0"
-		"tall"				"400"
+		"wide"				"446"
+		"tall"				"298"
 		"zpos"				"1"
 		"visible"			"0"
+		"pin_to_sibling"	"bppin"
 	}
 	
 	"InspectionPanel"
 	{
 		"fieldName"		"InspectionPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"400"
+		"xpos"			"79"
+		"ypos"			"7"
+		"wide"			"446"
+		"tall"			"298"
 		"zpos"				"2"
 		"visible"		"0"
 		"proportionaltoparent"	"0"
