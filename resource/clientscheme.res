@@ -264,22 +264,22 @@ Scheme
 		Econ.Button.DepressedBgColor						"TFOrange"
 		Econ.Button.DepressedFgColor						"Black"
 		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
+		Econ.Button.PresetDefaultColorFg					"HudWhite"
+		Econ.Button.PresetArmedColorFg						"HudWhite"
+		Econ.Button.PresetDepressedColorFg					"HudWhite"
 		
-		Econ.Button.PresetDefaultColorBg					"LighterRed"
-		Econ.Button.PresetArmedColorBg						"LightRed"
-		Econ.Button.PresetDepressedColorBg					"TFOrange"
+		Econ.Button.PresetDefaultColorBg					"BGBrightSolid"
+		Econ.Button.PresetArmedColorBg						"BGBrightSolid"
+		Econ.Button.PresetDepressedColorBg					"BGBrightSolid"
 		
 		Border.Bright					"Blank"		// the lit side of a control
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"117 107 94 255"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"TFOrange"
+		Button.TextColor				"HudWhite"
+		Button.BgColor					"Blank"
+		Button.ArmedTextColor			"HudWhite"
+		Button.ArmedBgColor				"Blank"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"
 		Button.DepressedTextColor		"Black"
@@ -3409,7 +3409,41 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)

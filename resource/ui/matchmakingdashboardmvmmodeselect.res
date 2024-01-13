@@ -334,6 +334,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
+		"paintBorder"	"0"
 
 		"textAlignment"	"center"
 		"font"			"Marlett6"
@@ -357,6 +358,7 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
+		"paintBorder"	"0"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
 		"paintbackground"	"1"
@@ -372,6 +374,7 @@
 		"ypos"	"0"
 		"wide"	"156"
 		"tall"	"74"
+		"paintBorder"	"0"
 	}
 	
 	"BG"

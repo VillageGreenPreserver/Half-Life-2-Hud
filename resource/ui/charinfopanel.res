@@ -59,6 +59,7 @@
 		"enabled"		"1"
 		"paintBackground"	"0"
 		"labelText"		""
+		"paintBorder"	"0"
 	}	
 	
 	"CloseLeft"
@@ -75,6 +76,7 @@
 		"enabled"		"1"
 		"paintBackground"	"0"
 		"labelText"		""
+		"paintBorder"	"0"
 		"pin_to_sibling"	"Border"
 		"pin_corner_to_sibling"	"1"
 	}
@@ -93,6 +95,7 @@
 		"enabled"		"1"
 		"paintBackground"	"0"
 		"labelText"		""
+		"paintBorder"	"0"
 		"pin_to_sibling"	"Border"
 		"pin_to_sibling_corner"	"1"
 	}	
@@ -111,6 +114,7 @@
 		"enabled"		"1"
 		"paintBackground"	"0"
 		"labelText"		""
+		"paintBorder"	"0"
 	}	
 	
 	"Border"
@@ -141,6 +145,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"close"
+		"paintBorder"	"0"
 
 		"textAlignment"	"center"
 		"font"			"C_Src_Marlett6"

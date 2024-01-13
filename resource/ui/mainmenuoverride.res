@@ -1273,6 +1273,7 @@
 			"proportionaltoparent"	"1"
 			"command"		"motd_hide"
 			"actionsignallevel"	"2"
+			"paintBorder"	"0"
 
 			"textAlignment"	"center"
 			"font"			"Marlett6"
@@ -1297,6 +1298,7 @@
 			"tabPosition"	"0"
 			"labeltext"		""
 			"font"			"HudFontSmallBold"
+			"paintBorder"	"0"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

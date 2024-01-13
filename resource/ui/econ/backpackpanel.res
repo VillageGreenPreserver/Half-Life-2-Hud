@@ -60,7 +60,7 @@
 				"visible"		"1"
 				"defaultbgcolor_override"		"0 0 0 0"
 				"defaultfgcolor_override"		"0 0 0 0"
-				"armedbgcolor_override"		"BGDark"
+				"armedbgcolor_override"		"0 0 0 0"
 				"armedfgcolor_override"		"0 0 0 0"
 				"depressedbgcolor_override"		"0 0 0 0"
 				"depressedfgcolor_override"		"0 0 0 0"
@@ -79,8 +79,8 @@
 				"sound_depressed"	""
 				"sound_released"	""
 				"proportionaltoparent"	"1"
-				"border_armed"	"SRCBorderConcave"
-				"border_selected"	"SRCBorderConcave"
+				"border_armed"	"SRCBorderConvex"
+				"border_selected"	"SRCBorderConvex"
 				"border_default"	"SRCBorderConvex"
 			}
 

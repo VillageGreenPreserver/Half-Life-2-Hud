@@ -117,6 +117,7 @@
 
 		"textAlignment"	"center"
 		"font"			"Marlett6"
+		"paintBorder"	"0"
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"180 180 180 196"
 		"armedFgColor_override"	"180 180 180 196"

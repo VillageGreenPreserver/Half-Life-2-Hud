@@ -50,6 +50,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
+		"paintBorder"	"0"
 
 		"textAlignment"	"center"
 		"font"			"Marlett6"
@@ -78,6 +79,7 @@
 		"paintbackground"	"0"
 		"paintbackgroundtype"	"0"
 		"roundedcorners"	"0"
+		"paintBorder"	"0"
 		"defaultbgColor_override"	"0 0 0 180"
 		"armedbgColor_override"	"0 0 0 180"
 	}
@@ -89,6 +91,7 @@
 		"xpos"	"rs1-50"
 		"ypos"	"36"
 		"tall"	"180"
+		"paintBorder"	"0"
 	}
 
 	"playlist"

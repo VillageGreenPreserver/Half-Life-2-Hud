@@ -32,6 +32,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_close"
+		"paintBorder"	"0"
 
 		"textAlignment"	"center"
 		"font"			"Marlett6"

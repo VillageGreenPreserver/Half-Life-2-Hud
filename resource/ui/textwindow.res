@@ -233,23 +233,14 @@
 	
 	"Logo"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Logo"
 		"xpos"			"c-300"
 		"ypos"			"c-220"
 		"zpos"			"2"
 		"wide"			"50"
 		"tall"			"50"
-		"autoResize"	"1"
-		"scaleImage"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labeltext"		""
 		"paintbackground"	"0"
-		"image_drawcolor"	"255 177 0 255"
-		"image_armedcolor"	"255 177 0 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -263,6 +254,7 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"image"			"glyph_multiplayer"
+			"drawcolor"	"255 177 0 255"
 			"scaleImage"	"1"
 		}	
 	}
