@@ -749,10 +749,10 @@
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"-12"
-		"ypos"			"0"
+		"ypos"			"-2"
 		"zpos"			"4"
 		"wide"			"424"
-		"tall"			"24"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -766,7 +766,7 @@
 		
 		"pin_to_sibling"		"BG"
 		"pin_to_sibling_corner"	"2"
-		"pin_corner_to_sibling"	"2"
+		"pin_corner_to_sibling"	"0"
 	}	
 	"SpectatorsInQueue"
 	{
@@ -779,7 +779,7 @@
 		"ypos"			"0"
 		"zpos"			"4"
 		"wide"			"424"
-		"tall"			"24"
+		"tall"			"8"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

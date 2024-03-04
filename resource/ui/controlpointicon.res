@@ -39,6 +39,7 @@
 		"enabled"	"1"
 		"image"		"replay/thumbnails/objective/cp/capture_icon"
 		"scaleImage"	"1"
+		"drawcolor"	"255 219 50 255"
 	}
 
 	"CapNumPlayers"
