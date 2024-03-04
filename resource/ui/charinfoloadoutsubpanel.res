@@ -424,11 +424,10 @@
 		"defaultfgColor_override"	"HudWhite"			
 		"armedfgColor_override"	"HudWhite"			
 	}
-	
-	"BPButton"
+	"CraftButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"BPButton"
+		"fieldName"		"CraftButton"
 		"xpos"			"0"
 		"ypos"			"3"
 		"zpos"			"1"
@@ -437,14 +436,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Backpack"
+		"labelText"		"Crafting"
 		"font"			"SRCLabel"
 		"textAlignment"	"west"
-		"Command"		"backpack"
+		"Command"		"crafting"
 
 		"paintbackground"	"0"
 
-		"pin_to_sibling"		"Seperator2"	
+		"pin_to_sibling"		"BPButton"	
 		"pin_to_sibling_corner"	"2"	
 		"pin_corner_to_sibling"	"0"	
 
