@@ -48,7 +48,7 @@
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
-			"border"		"noborder"
+			"border"		"SRCBorderConvex"
 			"paintborder"	"1"
 
 			"Button"
@@ -79,9 +79,9 @@
 				"sound_depressed"	""
 				"sound_released"	""
 				"proportionaltoparent"	"1"
-				"border_armed"	"SRCBorderConvex"
-				"border_selected"	"SRCBorderConvex"
-				"border_default"	"SRCBorderConvex"
+				"border_armed"	"noborder"
+				"border_selected"	"noborder"
+				"border_default"	"noborder"
 			}
 
 			"Test"
@@ -201,7 +201,6 @@
 			"use_item_sounds"	"1"
 		}
 	}
-	
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -563,6 +562,7 @@
 		"brighttext"	"0"
 		"paintBackground"	"0"
 		"Command"		""
+		"paintBorder"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
@@ -585,6 +585,7 @@
 		"textAlignment"	"center"
 		"paintBackground"	"0"
 		"Command"		""
+		"paintBorder"	"0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		

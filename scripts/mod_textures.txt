@@ -29,6 +29,12 @@
 				"font"		"Icons"
 				"character"	"+"
 		}
+
+		"test"
+		{
+				"font"		"Trebuchet22"
+				"character"	"HELLO"
+		}
 		
 		"minus_sign"
 		{

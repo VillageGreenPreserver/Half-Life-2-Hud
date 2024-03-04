@@ -93,10 +93,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -447,10 +447,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -513,10 +513,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -577,10 +577,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -668,10 +668,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -732,10 +732,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -796,10 +796,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -887,10 +887,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"		""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -951,10 +951,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"	""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -1015,10 +1015,10 @@
 		"armedbgColor_override" "blank"
 		"depressedbgColor_override" "blank"
 		"selectedbgColor_override" "Red"
-			
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"sound_armed"		"UI/buttonrollover.wav"
+
+		"sound_armed"	""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
@@ -1044,7 +1044,7 @@
 
 	
 
-	"CancelButton" [$WIN32] 
+	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
@@ -1058,10 +1058,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#TF_ClassMenu_Cancel"
+		"labelText"		"0 CANCEL"
 		"textAlignment"	"west"
 		"Command"		"vguicancel"
 		"font"			"Default"
+
+		"sound_armed"	""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"border"			"HL2ButtonBorder"
 		"border_default"			"HL2ButtonBorder"
@@ -1103,6 +1107,10 @@
 		"textAlignment"	"west"
 		"Command"		"openloadout"
 		"font"			"Default"
+
+		"sound_armed"	""
+		"sound_depressed"	""
+		"sound_released"	""
 		
 		"border"			"HL2ButtonBorder"
 		"border_default"			"HL2ButtonBorder"

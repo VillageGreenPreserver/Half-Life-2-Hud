@@ -1824,7 +1824,6 @@
 		"tall"			"f0"
 		"visible"		"0"
 	}
-
 	
 
 	"EventPromo"

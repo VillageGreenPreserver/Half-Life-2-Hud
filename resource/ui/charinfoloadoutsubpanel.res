@@ -38,15 +38,13 @@
 	
 	"Background"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"		"Panel"
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"wide"			"532"
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"SRCBorderConvex"
@@ -1226,17 +1224,17 @@
 		"fgcolor_override" "200 80 60 255"
 	}
 	
-	"class_loadout_panel"
-	{
-		"ControlName"		"CClassLoadoutPanel"
-		"fieldName"			"class_loadout_panel"
-		"xpos"				"79"
-		"ypos"				"7"
-		"wide"				"446"
-		"tall"				"298"
-		"zpos"				"1"
-		"visible"			"0"
-	}
+	// "class_loadout_panel"
+	// {
+	// 	"ControlName"		"CClassLoadoutPanel"
+	// 	"fieldName"			"class_loadout_panel"
+	// 	"xpos"				"79"
+	// 	"ypos"				"7"
+	// 	"wide"				"446"
+	// 	"tall"				"298"
+	// 	"zpos"				"1"
+	// 	"visible"			"0"
+	// }
 
 	"bppin"
 	{
@@ -1244,6 +1242,20 @@
 		"fieldName"		"bppin"
 		"xpos"			"79"
 		"ypos"			"7"
+	}
+
+	"class_loadout_panel"
+	{
+		"ControlName"		"CClassLoadoutPanel"
+		"fieldName"			"class_loadout_panel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"446"
+		"tall"				"298"
+		"zpos"				"0"
+		"visible"			"0"
+		"proportionaltoparent"	"0"
+		"pin_to_sibling"	"bppin"
 	}
 
 	"backpack_panel"

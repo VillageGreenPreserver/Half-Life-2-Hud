@@ -6,7 +6,7 @@
 		"fieldName"		"class_loadout_panel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"446"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -18,7 +18,7 @@
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
-		"item_xpos_offcenter_a"	"76"
+		"item_xpos_offcenter_a"	"75" //76
 		"item_xpos_offcenter_b"	"150"
 		"item_ypos"		"0"
 		"item_ydelta"	"75"
@@ -87,6 +87,8 @@
 			"tabPosition"	"0"
 			"labelText"		"+"
 			"font"			"HudFontSmallBold"
+			"defaultbgcolor_override"	"128 128 128 255"
+			"armedbgcolor_override"		"128 128 128 255"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -106,7 +108,7 @@
 		"xpos"			"c-300"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"0"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -143,7 +145,7 @@
 		"xpos"			"c-150"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"20"
+		"wide"			"0"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
@@ -158,10 +160,10 @@
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Taunt"
 		"textAlignment"	"west"
-		"xpos"			"c-130"
+		"xpos"			"0"
 		"ypos"			"15"
 		"zpos"			"1"
-		"wide"			"240"
+		"wide"			"0"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -213,7 +215,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"5"
+		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"-1"		
 		"wide"			"238"
@@ -290,22 +292,20 @@
 	"pinner"
 	{
 		"ControlName"	"Panel"
-		"xpos"			"1000"
+		"xpos"			"s-1-p0.5+271"
 	}
 	
 	"loadout_preset_panel"
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"FieldName"		"loadout_preset_panel"
-		"zpos"			"20"
+		"zpos"			"-2"
 		"xpos"			"0"
-		"wide"			"f0"
+		"ypos"			"0"
+		"wide"			"60"
 		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
 		"paintbackground"	"0"
 		"proportionaltoparent"	"1"
 	}
@@ -424,15 +424,16 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"0"
+		"xpos"			"3"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"140"
+		"wide"			"73"
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"BGBright"
+		"border"		"SRCBorderConvex"
+		"PaintBackgroundType"	"0"
 	}
 
 	"TauntHintLabel"
@@ -443,7 +444,7 @@
 		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	
-		"wide"			"250"
+		"wide"			"0"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -460,9 +461,12 @@
 		"tall"			"1"
 		"wide"			"50"
 		"border"		"SRCBorderConcave"
-		"ypos"			"14"
-		"xpos"			"246"
+		"ypos"			"-14"
+		"xpos"			"3"
 		"proportionaltoparent"	"1"
+
+		"pin_to_sibling"	"ModelBG"
+		"pin_to_sibling_corner"	"1"
 	}
 
 	"CharacterLoadoutButton"
@@ -481,8 +485,8 @@
 		"enabled"		"1"
 		"font"			"SRCLabel"
 		"Command"		"characterloadout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	""
+		"sound_released"	""
 		"pin_to_sibling"	"Spacer"
 		"pin_to_sibling_corner"	"2"
 
@@ -516,8 +520,8 @@
 		"enabled"		"1"
 		"Command"		"tauntloadout"
 		"font"			"SRCLabel"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_depressed"	""
+		"sound_released"	""
 		"pin_to_sibling"	"CharacterLoadoutButton"
 		"pin_to_sibling_corner"	"2"
 
@@ -579,6 +583,7 @@
 		"pin_to_sibling_corner"	"2"
 		"command"		"sv_cheats 1; r_skin 1"
 	}
+
 
 	"Spacer3"
 	{

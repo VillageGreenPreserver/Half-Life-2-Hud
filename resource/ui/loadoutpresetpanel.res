@@ -4,9 +4,12 @@
 	{
 		"ControlName"	"CLoadoutPresetPanel"
 		"fieldName"		"loadout_preset_panel"
+		"pin_to_sibling"	"pinner"
+		"pin_to_sibling_corner"	"1"
 		
 		"presetbutton_kv"
 		{
+			"ControlName"	"Button"
 			"zpos"			"20"
 			"wide"			"11"
 			"tall"			"11"
@@ -23,17 +26,15 @@
 			"Command"		""
 			"roundedcorners"	"0"
 			"border_default"	"SRCBorderConvex"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_depressed"	""
+			"sound_released"	""
 			"centerwrap"	"1"
-			"pin_to_sibling"	"pinner"
-			"pin_to_sibling_corner"	"1"
 		}			
 
 		"pinner"
 		{
 			"ControlName"	"Panel"
-			"xpos"			"c-610"
+			"xpos"			"-184"
 			"proportionaltoparent"	"1"
 		}
 	}

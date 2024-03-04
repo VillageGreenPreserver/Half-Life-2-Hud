@@ -1355,7 +1355,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
-		"ypos"			"-2"
+		"ypos"			"-7"
 		"zpos"			"3"
 		"wide"			"640"
 		"tall"			"22"
