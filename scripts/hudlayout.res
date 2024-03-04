@@ -1026,7 +1026,7 @@
 		"fieldName"				"HudArenaNotification"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
+		"xpos"					"c-123"
 		"ypos"					"75"
 		"ypos_hidef"				"90"
 		"ypos_lodef"				"90"
@@ -1157,9 +1157,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"c-255"
 		"wide"					"f0"
-		"tall"					"50"
+		"tall"					"150"
 	}	
 	
 	"HudAchievementTracker"
