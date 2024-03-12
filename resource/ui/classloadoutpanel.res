@@ -190,24 +190,24 @@
 	"ModelBG"
 	{
 		"ControlName"	"Panel"
-		"pin_to_sibling"	"classmodelpanel"
-		"wide"			"238"
+		"wide"			"242"
 		"tall"			"f0"
-		"bgcolor_override"	"BGDark"
 		"zpos"			"-2"
 		"proportionaltoparent"	"1"
+		"bgcolor_override"	"BGDark"
+		"pin_to_sibling"	"classmodelpanel"
 	}		
 
 	"ModelBorder"
 	{
 		"ControlName"	"Panel"
-		"pin_to_sibling"	"classmodelpanel"
-		"wide"			"238"
+		"wide"			"242"
 		"tall"			"f0"
-		"border"	"SRCBorderConcave"
 		"zpos"			"0"
 		"mouseinputenabled"	"0"
 		"proportionaltoparent"	"1"
+		"border"	"SRCBorderConcave"
+		"pin_to_sibling"	"classmodelpanel"
 	}	
 	
 	"classmodelpanel"
@@ -215,10 +215,10 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"4"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"		
-		"wide"			"238"
+		"wide"			"242"
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"

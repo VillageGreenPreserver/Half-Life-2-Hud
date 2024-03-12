@@ -1471,7 +1471,7 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"13"
+				"tall"		"12"
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin

@@ -38,17 +38,61 @@
 	
 	"Background"
 	{
-		"ControlName"		"Panel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
-		"wide"			"532"
+		"wide"			"38"
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"SRCBorderConvex"
+		"border"		"noborder"
 		"bgcolor_override"		"blank"
+
+		"1"
+		{
+			"ControlName"		"Panel"
+			"xpos"			"0"
+			"wide"			"532"
+			"tall"			"313"
+			"ypos"			"-1"
+			"zpos"			"-2"
+			"visible"		"1"
+			"enabled"		"1"
+			"border"		"SRCBorderConvex"
+			"bgcolor_override"		"blank"
+		}
+	}
+	"Background2"
+	{
+		"ControlName"		"EditablePanel"
+		"xpos"			"0"
+		"wide"			"494" //532
+		"tall"			"312"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"noborder"
+		"bgcolor_override"		"blank"
+		"pin_to_sibling"	"Background"
+		"pin_to_sibling_corner"	"1"
+
+		"1"
+		{
+			"ControlName"		"Panel"
+			"xpos"			"rs1"
+			"wide"			"532"
+			"tall"			"312"
+			"ypos"			"0"
+			"zpos"			"-2"
+			"visible"		"1"
+			"enabled"		"1"
+			"proportionaltoparent"	"1"
+			"border"		"SRCBorderConvex"
+			"bgcolor_override"		"blank"
+		}
 	}
 	"Seperator"
 	{
