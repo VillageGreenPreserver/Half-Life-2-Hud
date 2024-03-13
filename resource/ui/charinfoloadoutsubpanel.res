@@ -499,6 +499,37 @@
 		"defaultfgColor_override"	"HudWhite"			
 		"armedfgColor_override"	"HudWhite"			
 	}
+	"PaintButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"PaintButton"
+		"xpos"			"0"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"58"
+		"tall"			"11"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"War Paints"
+		"font"			"SRCLabel"
+		"textAlignment"	"west"
+		"Command"		"paintkit_preview"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling"		"CraftButton"	
+		"pin_to_sibling_corner"	"2"	
+		"pin_corner_to_sibling"	"0"	
+
+		"actionsignallevel"		"2"
+		"border_default"		"SRCBorderConvex"
+
+		"proportionaltoparent"	"1"
+		
+		"defaultfgColor_override"	"HudWhite"			
+		"armedfgColor_override"	"HudWhite"			
+	}
 	
 	
 	"Scout_KeyBind"
@@ -1317,14 +1348,16 @@
 	"InspectionPanel"
 	{
 		"fieldName"		"InspectionPanel"
-		"xpos"			"79"
-		"ypos"			"7"
+		"xpos"			"0"
+		"ypos"			"0"
 		"wide"			"446"
 		"tall"			"298"
-		"zpos"				"2"
+		"zpos"				"502"
 		"visible"		"0"
 		"proportionaltoparent"	"0"
 		"bgcolor_override"	"30 25 25 0"
+		"paintBackgroundtype"	"0"
+		"pin_to_sibling"	"bppin"
 	}
 
 	"ShowExplanationsButton"

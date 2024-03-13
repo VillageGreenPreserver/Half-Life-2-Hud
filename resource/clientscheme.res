@@ -1608,13 +1608,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"0"
+				"yres"		"1 10000"
 			}
 		}
 		"ScoreboardMediumSmall"
