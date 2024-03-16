@@ -143,7 +143,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_1"
-			"iconColor"		"255 220 0 100"
+			"iconColor"		"255 220 0 255"
 		}
 
 		"Icon_Upgrade_2"
@@ -159,7 +159,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_2"
-			"iconColor"		"255 220 0 100"
+			"iconColor"		"255 220 0 255"
 		}
 
 		"Icon_Upgrade_3"
@@ -175,7 +175,7 @@
 			"enabled"		"1"
 			"scaleImage"	"1"	
 			"icon"			"obj_status_upgrade_3"
-			"iconColor"		"255 220 0 100"
+			"iconColor"		"255 220 0 255"
 		}
 		
 		"AlertTray"
@@ -191,7 +191,7 @@
 			"visible"		"0"
 			"enabled"		"1"	
 			"icon"			"ico_notify_golden_wrench"
-			"iconColor"		"0 0 0 0"
+			"iconColor"		"0 0 0 255"
 		}
 		
 		"WrenchIcon"
@@ -236,7 +236,7 @@
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
 			"font"			"Default"
-			"xpos"			"10"
+			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
 			"tall"			"53"

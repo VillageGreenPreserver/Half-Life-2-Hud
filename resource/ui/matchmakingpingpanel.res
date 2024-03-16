@@ -57,6 +57,7 @@
 		"command"		"nav_close"
 		"paintbackground"	"0"
 		"paintbackgroundtype"	"0"
+		"paintBorder"		"0"
 		"roundedcorners"	"0"
 		"defaultbgColor_override"	"0 0 0 0"
 		"armedbgColor_override"	"0 0 0 180"

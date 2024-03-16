@@ -98,7 +98,8 @@
 	{
 		"ControlName"		"Panel"
 		"fieldName"		"Seperator"
-		"xpos"			"7"
+		"xpos"			"71"
+		"ypos"			"7"
 		"wide"			"1"
 		"tall"			"298"
 		"ypos"			"0"
@@ -109,9 +110,6 @@
 		"enabled"		"1"
 		"border"		"SRCBorderConcave"
 		"bgcolor_override"		"blank"
-
-		"pin_to_sibling"	"ScoutButton"
-		"pin_to_sibling_corner"	"1"
 	}
 	"Seperator2"
 	{

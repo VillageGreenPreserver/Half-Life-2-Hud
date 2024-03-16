@@ -105,9 +105,9 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressOffWhite"	"255 220 0 255"
 		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"HealthBgGrey"		"72 71 69 0"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
@@ -1596,12 +1596,10 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"8"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
-				"weight"	"400"
-				"additive"	"0"
-				"antialias" "1"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"0"
+				"yres"		"1 10000"
 			}
 		}
 		"ScoreboardSmall"
