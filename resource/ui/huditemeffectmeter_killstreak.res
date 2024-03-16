@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"142"
-		"ypos"			"r48"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"102"
-		"tall"			"36"
+		"wide"			"f0"
+		"tall"			"480"
 	}
 	
 	"ItemEffectMeterBG"
@@ -23,6 +23,37 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"		
+	}
+
+	"KillstreakBG"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"KillstreakBG"
+		"xpos"				"86"
+		"ypos"				"r72"
+		"zpos"				"-1"
+		"wide"				"32"
+		"tall"	 			"18"
+		"visible"			"1"
+		"enabled"			"1"
+		"proportionaltoparent"	"1"
+		"paintbackgroundtype"	"2"
+		"bgcolor_override"		"HL2BG"
+	}
+
+	"KSIcon"
+	{
+		"ControlName"			"CTFImagePanel"
+		"fieldname"				"KSIcon"
+		"xpos"					"0"
+		"ypos"					"-2"
+		"wide"					"14"
+		"tall"					"14"
+		"visible"				"1"
+		"enabled"				"1"
+		"image"					"../hud/leaderboard_streak"
+		"drawcolor"				"HL2YellowSolid"
+		"pin_to_sibling"		"KillstreakBG"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -46,27 +77,6 @@
 		"font"					"Default"
 		"fgcolor_override"				"255 220 0 100"
 	}
-	"KSLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"KSLabel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"5"
-		"wide"			"102"
-		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"STREAK"
-		"paintbackground"	"1"
-		"paintbackgroundtype"	"2"
-		"textAlignment"	"south-WEST"	
-		"textinsetx"	"8"
-		"use_proportional_insets"	"1"
-		"font"			"Default"
-		"fgcolor"		"255 220 0 100"
-
-	}
 	"ItemEffectMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
@@ -84,8 +94,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"0"
+		"xpos"					"31"
+		"ypos"					"9"
 		"zpos"					"2"
 		"wide"					"102"
 		"tall"					"36"	
@@ -97,13 +107,11 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudNumbers2"
-		"paintbackground"		"1"
-		"paintbackgroundtype"	"2"
-		"bgcolor_override"		"0 0 0 76"
+		"font"					"Default"
 		"fgcolor_override"		"255 220 0 100"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"50"
 		"textinsety"	"-1"
+		"pin_to_sibling"		"KillstreakBG"
 	}
 }

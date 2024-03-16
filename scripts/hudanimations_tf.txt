@@ -462,6 +462,7 @@ event HudSpyDisguiseFadeIn
 {
 	Animate TeamImageBG			position	"16 r102"		Linear 0.0 0.2	
 	Animate PlayerStatusAnchor	position	"36 r138"		Linear 0.0 0.2	
+	Animate KillstreakBG		position	"86 r102"		Linear 0.0 0.2	
 	
 	//Animate DisguiseBG			Size		"102 24"		Linear 0.0 0.2
 	Animate DisguiseBG			Position	"0 0"			Linear 0.0 0.2
@@ -471,6 +472,7 @@ event HudSpyDisguiseFadeOut
 {
 	Animate TeamImageBG			position	"16 r72"		Linear 0.0 0.2	
 	Animate PlayerStatusAnchor	position	"36 r108"		Linear 0.0 0.2	
+	Animate KillstreakBG		position	"86 r72"		Linear 0.0 0.2	
 	
 	//Animate DisguiseBG			Size		"102 0"			Linear 0.0 0.0
 	Animate DisguiseBG			Position	"0 24"			Linear 0.0 0.0

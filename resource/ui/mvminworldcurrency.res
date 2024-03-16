@@ -13,8 +13,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundGood"
-		"xpos"			"1"
-		"ypos"			"1"
+		"xpos"			"124"
+		"ypos"			"rs1-32"
 		"zpos"			"2"
 		"wide"			"58"
 		"tall"			"16"
@@ -23,6 +23,41 @@
 		"paintBackground"	"1"
 		"paintBackgroundType"	"2"
 		"bgcolor_override"	"HL2BG"
+	}
+	
+	"CurrencyGood"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGood"
+		"font"			"Default"
+		"fgcolor"		"QualityColorSelfMade"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"58"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+	}
+	
+	"CurrencyBad"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBad"
+		"font"			"Default"
+		"fgcolor_override"		"255 220 0 100"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"58"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+		"pin_to_sibling"	"BackgroundGood"
 	}
 	
 	"MoneyImagePanel"
@@ -38,39 +73,5 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-	}
-	
-	"CurrencyGood"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyGood"
-		"font"			"Default"
-		"fgcolor"		"QualityColorSelfMade"
-		"xpos"			"9"
-		"ypos"			"3"
-		"zpos"			"4"
-		"wide"			"40"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}
-	
-	"CurrencyBad"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CurrencyBad"
-		"font"			"Default"
-		"fgcolor"		"HudProgressBarActive"
-		"xpos"			"9"
-		"ypos"			"3"
-		"zpos"			"4"
-		"wide"			"40"
-		"tall"			"12"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
 	}
 }

@@ -1,21 +1,5 @@
 "Resource/UI/HudCurrencyAccount.res"
 {
-	"Currency"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"Currency"
-		"font"			"Default"
-		"fgcolor"		"QualityColorSelfMade"
-		"xpos"			"11"
-		"ypos"			"58"
-		"zpos"			"3"
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"labelText"		"%currency%"
-	}	
 	
 	"CurrencyShadow"
 	{
@@ -45,8 +29,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GreenBG"
-		"xpos"			"27"
-		"ypos"			"72"
+		"xpos"			"124"
+		"ypos"			"rs1-12"
 		"zpos"			"2"
 		"wide"			"58"
 		"tall"			"16"
@@ -56,4 +40,21 @@
 		"paintBackgroundType"	"2"
 		"bgcolor_override"	"HL2BG"
 	}
+	"Currency"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Currency"
+		"font"			"Default"
+		"fgcolor"		"QualityColorSelfMade"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"58"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"	
+		"labelText"		"%currency%"
+		"pin_to_sibling"	"GreenBG"
+	}	
 }
