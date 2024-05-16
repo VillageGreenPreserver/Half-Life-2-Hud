@@ -2877,7 +2877,13 @@
 				"defaultfgColor_override"	"Blank"			
 				"armedfgColor_override"	"BorderBright"
 				
-				"proportionaltoparent"	"1"			
+				"proportionaltoparent"	"1"	
+
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"wide"		"0"
+				}
 			}		
 		}
 
