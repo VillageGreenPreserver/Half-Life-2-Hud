@@ -1,5 +1,3 @@
-//remove default background from matchmaking menu
-wait 5; showconsole; wait; incrementvar mat_antialias -100 100 1; hideconsole; wait 5; incrementvar mat_antialias -100 100 -1
 
 //fix target id
 tf_hud_target_id_offset 0
@@ -7,4 +5,26 @@ tf_hud_target_id_offset 0
 //show friendslist and casual rank, change to 0 to disable
 cl_mainmenu_safemode 0
 
-exec autoexec
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+
+// Setup custom controller
+exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+//
+// stuff command line statements
+//
+stuffcmds
+
+// display the startup level
+startupmenu
+
+sv_unlockedchapters 99
+
+sv_cheats 1
+//remove default background from matchmaking menu
+wait 5; showconsole; wait; toggle mat_aaquality; hideconsole; wait 5; toggle mat_aaquality
