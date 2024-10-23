@@ -6,7 +6,7 @@
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"f0"
+		"wide"			"532"
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -16,6 +16,8 @@
 		"proportionaltoparent"	"1"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"PaintBorder"			"0"
+		"border"				"ArmoryScrollbarBox"
 		"bgcolor_override"	"46 43 42 0"
 		"infocus_bgcolor_override" "46 43 42 0"
 		"outoffocus_bgcolor_override" "46 43 42 0"
@@ -41,14 +43,14 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
-		"wide"			"38"
+		"wide"			"34"
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"
 		"visible"		"1"
 		"enabled"		"1"
 		"border"		"noborder"
-		"bgcolor_override"		"blank"
+		"bgcolor_override"		"0 0 0 0"
 
 		"1"
 		{
@@ -68,7 +70,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"xpos"			"0"
-		"wide"			"494" //532
+		"wide"			"498" //532
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"

@@ -22,7 +22,7 @@
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
-		"titletextinsetY"	"-30"
+		"titletextinsetY"	"-18"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
 		"titlebarbgcolor_override"				"46 43 42 255"
@@ -208,7 +208,8 @@
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-	}				
+	}
+
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"
@@ -236,13 +237,16 @@
 	"Sheet"
 	{
 		"ControlName"	"EditablePanel"
+		"wide"			"532"
 		"fieldName"		"Sheet"
 		"tabxdelta"		"0"
-		"tabwidth"		"240"
+		"tabwidth"		"32"
 		"tabheight"		"11"
 		"transition_time" "0"
 		"yoffset"	"0"
 		"tabxindent"	"0"
+		"paintBorder"	"0"
+		"tabxfittotext"	"0"
 		"pin_to_sibling"	"pinner"
 		
 		"HeaderLine"
@@ -273,6 +277,11 @@
 			"paintbackground"	"1"
 			"activeborder_override"	"SRCTabSelected"
 			"normalborder_override" "SRCTabNotSelected"
+		}
+
+		"CharInfoLoadoutSubPanel"
+		{
+			"wide"	"532"
 		}
 	}
 	

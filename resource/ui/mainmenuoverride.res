@@ -2105,7 +2105,7 @@
 			"visible"		"1"
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"2"
-			"texture2"		"vgui/replay/thumbnails/close"
+			// "texture2"		"vgui/replay/thumbnails/close"
 			"bgcolor_override"	"160 160 160 128"
 			"proportionaltoparent"	"1"
 

@@ -17,7 +17,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"0"
-		"wide"			"39"
+		"wide"			"35"
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"
@@ -44,7 +44,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"xpos"			"0"
-		"wide"			"28" //532
+		"wide"			"32" //532
 		"tall"			"312"
 		"ypos"			"0"
 		"zpos"			"-2"

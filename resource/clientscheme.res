@@ -911,11 +911,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"0"
+				"antialias"	"0"
+				"yres"		"1 10000"
 			}
 		}
 		"HudFontMediumBold"
@@ -3326,6 +3326,46 @@ Scheme
 				"1"
 				{
 					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		MenuBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "BorderDark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "BorderBright"
+					"offset" "0 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "BorderDark"
 					"offset" "0 0"
 				}
 			}

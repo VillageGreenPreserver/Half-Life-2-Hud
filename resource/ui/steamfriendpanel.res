@@ -29,10 +29,11 @@
 		"roundedcorners"	"1"
 		"paintbackground"	"1"
 		"paintborder"	"1"
+		"default"		"1"
 		
 		"border_default"	"NoBorder"
-		"border"	"NoBorder"
-		"border_armed"	"FriendHighlightBorderThick"
+		"border"			"NoBorder"
+		"border_armed"		"FriendHighlightBorderThick"
 
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"	"255 160 0 0"
