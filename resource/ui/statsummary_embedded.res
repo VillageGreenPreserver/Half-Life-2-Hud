@@ -2840,6 +2840,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"nexttip"
+		"border"		"SRCBorderConvex"
 
 		"pin_to_sibling"	"Background3"
 		"pin_corner_to_sibling"	"3"
@@ -2865,6 +2866,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"resetstatsbutton"
+		"border"		"SRCBorderConvex"
 
 		"pin_to_sibling"	"Background3"
 		"pin_corner_to_sibling"	"1"

@@ -3499,6 +3499,7 @@ Scheme
 		ComboBoxBorder
 		{
 			"inset" "0 0 1 1"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -3538,6 +3539,7 @@ Scheme
 		DarkComboBoxBorder
 		{
 			"inset" "0 0 1 1"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -6194,6 +6196,7 @@ Scheme
 		SRCBorderConcave
 		{
 			"inset" "0 0 0 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -6234,6 +6237,7 @@ Scheme
 		SRCBorderConvex
 		{
 			"inset" "0 0 0 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -6274,6 +6278,7 @@ Scheme
 		SRCTabNotSelected
 		{
 			"inset" "0 0 0 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -6314,6 +6319,7 @@ Scheme
 		SRCTabSelected
 		{
 			"inset" "0 0 0 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"
@@ -6345,6 +6351,7 @@ Scheme
 		SRCBorderConvexSWE
 		{
 			"inset" "0 0 0 0"
+			"proportional_scalar" "0.667"
 			Left
 			{
 				"1"

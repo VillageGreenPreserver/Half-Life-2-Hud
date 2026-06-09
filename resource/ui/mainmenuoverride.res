@@ -2874,7 +2874,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"sound_armed"	"UI/buttonrollover.wav"
 				
-				"defaultfgColor_override"	"Blank"			
+				"defaultfgColor_override"	"HudWhite"			
 				"armedfgColor_override"	"BorderBright"
 				
 				"proportionaltoparent"	"1"	
@@ -2921,7 +2921,7 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"sound_armed"	"UI/buttonrollover.wav"
 				
-				"defaultfgColor_override"	"blank"			
+				"defaultfgColor_override"	"HudWhite"			
 				"armedfgColor_override"	"BorderBright"
 				
 				"proportionaltoparent"	"1"			
@@ -2948,7 +2948,7 @@
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"labelText"		"FIND SERVERS"
 			"font"			"MenuButton"
@@ -3434,7 +3434,7 @@
 			"ypos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"0"
 			"labelText"		"FIND SERVERS"
 			"font"			"MenuButton"
@@ -3626,6 +3626,22 @@
 		"pin_to_sibling"		"MotdButton2_IG"
 		"pin_to_sibling_corner"	"2"
 		"pin_corner_to_sibling"	"0"
+	}
+
+	"partypin"
+	{
+		"ControlName"		"Panel"
+		"ypos"				"130"
+		"wide"				"0"
+		"tall"				"0"
+	}
+
+	"partychat"
+	{
+		"pin_to_sibling"		"partypin"
+		"pin_to_sibling_corner"	"3"
+		"pin_corner_to_sibling"	"2"
+		"expand_direction"		"down"
 	}
 
 	"SettingsButton"
